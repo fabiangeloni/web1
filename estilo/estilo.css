@@ -37,8 +37,23 @@ ul{display: flex;
 li{flex:1;
    list-style: none;}
 
-    .empresa { margin: 1em; padding: 1em; border: 1px solid #ccc; width:200px; float: left; }
+    .empresa {
+  flex: 1 1 300px; /* ancho mínimo de 300px, crece igual que las otras */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background: #fffce0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* esto ayuda con distribución vertical */
+}
     .categoria-btn { margin: 0.5em; padding: 0.5em 1em; cursor: pointer; }
+    .listadoEmpresas{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* espacio entre tarjetas */
+  justify-content: center;
+}
 
 a:link{color:aliceblue; text-decoration: none;}
 
