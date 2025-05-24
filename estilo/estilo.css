@@ -37,7 +37,7 @@ ul{display: flex;
 li{flex:1;
    list-style: none;}
 
-    .empresa { margin-bottom: 1em; padding: 1em; border: 1px solid #ccc; }
+    .empresa { margin: 1em; padding: 1em; border: 1px solid #ccc; width:200px; float: left; }
     .categoria-btn { margin: 0.5em; padding: 0.5em 1em; cursor: pointer; }
 
 a:link{color:aliceblue; text-decoration: none;}
