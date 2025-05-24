@@ -48,7 +48,7 @@ li{flex:1;
   justify-content: space-between; /* esto ayuda con distribución vertical */
 }
     .categoria-btn { margin: 0.5em; padding: 0.5em 1em; cursor: pointer; }
-    .listadoEmpresas{
+    #listadoEmpresas{
   display: flex;
   flex-wrap: wrap;
   gap: 20px; /* espacio entre tarjetas */
