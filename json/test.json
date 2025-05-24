@@ -10,7 +10,7 @@
 
   {
     "empresa": "La Casa S.A.",
-    "categoria": "Limpieza",
+    "categoria": "hogar",
     "descripcion": "Productos de limpieza para el hogar y la industria",
     "direccion": "Calle 123, Ciudad Ejemplo",
     "telefono": 1234567890,
@@ -19,7 +19,7 @@
 
   {
     "empresa": "El Bar S.A.",
-    "categoria": "Limpieza",
+    "categoria": "gastronomia",
     "descripcion": "Productos de limpieza para el hogar y la industria",
     "direccion": "Calle 123, Ciudad Ejemplo",
     "telefono": 1234567890,

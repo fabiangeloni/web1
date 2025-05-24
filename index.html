@@ -68,7 +68,64 @@
 						</div>
 					</div>
 				</section>
-					<br><br>
+					<br>
+					<div id="menuCategorias"></div>
+  <div id="listadoEmpresas"></div>
+
+  <script>
+    let empresas = [];
+
+    fetch('json/test.json')
+      .then(res => res.json())
+      .then(data => {
+        empresas = data;
+        mostrarCategorias(data);
+        mostrarEmpresas(data); // muestra todas al principio
+      });
+
+    function mostrarCategorias(data) {
+      const categorias = [...new Set(data.map(e => e.categoria))]; // únicas
+      const menu = document.getElementById('menuCategorias');
+      categorias.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.className = 'categoria-btn';
+        btn.textContent = cat;
+        btn.onclick = () => filtrarPorCategoria(cat);
+        menu.appendChild(btn);
+      });
+
+      // Botón "Todas"
+      const btnTodas = document.createElement('button');
+      btnTodas.className = 'categoria-btn';
+      btnTodas.textContent = 'Todas';
+      btnTodas.onclick = () => mostrarEmpresas(empresas);
+      menu.appendChild(btnTodas);
+    }
+
+    function mostrarEmpresas(lista) {
+      const contenedor = document.getElementById('listadoEmpresas');
+      contenedor.innerHTML = ''; // limpiar
+
+      lista.forEach(emp => {
+        const div = document.createElement('div');
+        div.className = 'empresa';
+        div.innerHTML = `
+          <h2>${emp.empresa}</h2>
+          <p><strong>Categoría:</strong> ${emp.categoria}</p>
+          <p>${emp.descripcion}</p>
+          <p>${emp.direccion} - Tel: ${emp.telefono}</p>
+          <img src="${emp['url de imagen']}" alt="${emp.empresa}" width="200">
+        `;
+        contenedor.appendChild(div);
+      });
+    }
+
+    function filtrarPorCategoria(cat) {
+      const filtradas = empresas.filter(emp => emp.categoria === cat);
+      mostrarEmpresas(filtradas);
+    }
+  </script>
+					<br>
 					<h1>Listado de Empresas</h1>
   <div id="empresas"></div>
 
