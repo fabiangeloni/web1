@@ -53,6 +53,7 @@ li{flex:1;
   flex-wrap: wrap;
   gap: 20px; /* espacio entre tarjetas */
   justify-content: center;
+  margin:20px;
 }
 
 a:link{color:aliceblue; text-decoration: none;}
