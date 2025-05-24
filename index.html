@@ -110,11 +110,11 @@
         const div = document.createElement('div');
         div.className = 'empresa';
         div.innerHTML = `
-          <h2>${emp.empresa}</h2>
+          <div class="clear"><h2>${emp.empresa}</h2>
           <p><strong>Categoría:</strong> ${emp.categoria}</p>
           <p>${emp.descripcion}</p>
           <p>${emp.direccion} - Tel: ${emp.telefono}</p>
-          <img src="${emp['url_imagen']}" alt="${emp.empresa}" width="200">
+          <img src="${emp['url_imagen']}" alt="${emp.empresa}" width="200"></div>
         `;
         contenedor.appendChild(div);
       });
