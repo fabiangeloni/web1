@@ -2,46 +2,104 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Convertir Excel (XLSX) a JSON</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <title>Editor de Empresas → Exportar a JSON</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f6f6f6;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    th {
+      background-color: #eee;
+    }
+    input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 4px;
+    }
+    button {
+      margin: 10px 5px 20px 0;
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  </style>
 </head>
-<body style="font-family: sans-serif;">
-  <h2>Convertidor de Excel a JSON</h2>
-  <input type="file" id="excelFile" accept=".xlsx" />
-  <button onclick="convertirExcel()">Convertir y Descargar JSON</button>
+<body>
+
+  <h2>Editor de Empresas</h2>
+  <button onclick="agregarFila()">Agregar fila</button>
+  <button onclick="descargarJSON()">Descargar JSON</button>
+
+  <table id="tablaEmpresas">
+    <thead>
+      <tr>
+        <th>Empresa</th>
+        <th>Categoría</th>
+        <th>Descripción</th>
+        <th>Dirección</th>
+        <th>Teléfono</th>
+        <th>URL de Imagen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="text" placeholder="Ej: La Estrella S.A." /></td>
+        <td><input type="text" placeholder="Ej: Limpieza" /></td>
+        <td><input type="text" placeholder="Ej: Productos de limpieza..." /></td>
+        <td><input type="text" placeholder="Ej: Calle 51 e/ 7 y 9" /></td>
+        <td><input type="text" placeholder="Ej: 1234567890" /></td>
+        <td><input type="text" placeholder="Ej: imagenes/logo.png" /></td>
+      </tr>
+    </tbody>
+  </table>
 
   <script>
-    function convertirExcel() {
-      const input = document.getElementById("excelFile");
-      if (!input.files.length) {
-        alert("Seleccioná un archivo Excel (.xlsx).");
-        return;
+    function agregarFila() {
+      const fila = document.querySelector("#tablaEmpresas tbody").insertRow();
+      for (let i = 0; i < 6; i++) {
+        const celda = fila.insertCell();
+        const input = document.createElement("input");
+        input.type = "text";
+        celda.appendChild(input);
       }
+    }
 
-      const reader = new FileReader();
-      reader.onload = function (e) {
-        const data = new Uint8Array(e.target.result);
-        const workbook = XLSX.read(data, { type: "array" });
+    function descargarJSON() {
+      const filas = document.querySelectorAll("#tablaEmpresas tbody tr");
+      const datos = [];
 
-        // Tomar solo la primera hoja
-        const primeraHoja = workbook.SheetNames[0];
-        const hoja = workbook.Sheets[primeraHoja];
+      filas.forEach(fila => {
+        const celdas = fila.querySelectorAll("input");
+        if (celdas[0].value.trim() !== "") { // Evitar guardar filas vacías
+          datos.push({
+            empresa: celdas[0].value,
+            categoria: celdas[1].value,
+            descripcion: celdas[2].value,
+            direccion: celdas[3].value,
+            telefono: celdas[4].value,
+            url_imagen: celdas[5].value
+          });
+        }
+      });
 
-        // Convertir a JSON
-        const json = XLSX.utils.sheet_to_json(hoja);
-
-        // Descargar JSON
-        const blob = new Blob([JSON.stringify(json, null, 2)], { type: "application/json" });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "empresas.json";
-        a.click();
-        URL.revokeObjectURL(url);
-      };
-
-      reader.readAsArrayBuffer(input.files[0]);
+      const blob = new Blob([JSON.stringify(datos, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "empresas.json";
+      a.click();
+      URL.revokeObjectURL(url);
     }
   </script>
+
 </body>
 </html>
