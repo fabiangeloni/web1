@@ -24,51 +24,10 @@
 			</header>
 
 			<main>
-				<div class="hero">
-					<div class="contenedor-hero-izq">
-						<h1>Formá parte de la aventura que transforma vidas</h1>
-						<br>
-						<h5>Descubrí el mundo del escultismo con experiencias reales, 
-							valores para toda la vida y amistades que perduran. 
-							En nuestra escuela de scouts, los chicos y chicas aprenden haciendo, 
-							crecen en equipo y se conectan con la naturaleza.</h5>
-							<br>
-							<div class="boton-hero">
-								<a href="#"><button>Sumate Hoy!</button></a>
-							</div>
-					</div>
-					<div class="contenedor-hero-der">
-						<iframe
-  width="425"
-  height="240"
-  src="https://www.youtube.com/embed/lbPB2n9u8bo?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin"
-  allowfullscreen>
-</iframe>
-
-					</div>
-				</div>
-				<br><br><br>
-				<h1>Creciendo con valores, explorando con propósito</h1>
-				<br>
-				<h3> Acompañamos a cada niño y niña en su camino de descubrimiento, construyendo carácter, 
-					respeto y amistad a través del juego, la naturaleza y el trabajo en equipo. </h3>
-					<br>
-				<section>
-					<hr>
-					<div class="contenedor-circulo">
-						<div class="circulo-wrap">
-						<div class="circulo"><i class="fa-solid fa-hands-holding-child"></i></div>
-						<div class="circulo"><i class="fa-solid fa-tents"></i></div>
-						<div class="circulo"><i class="fa-solid fa-mountain-sun"></i></div>
-						<div class="circulo"><i class="fa-solid fa-flag"></i></div>
-						</div>
-					</div>
-				</section>
-					<br>
+				
+				
+				
+					
 					<div id="menuCategorias"></div>
   <div id="listadoEmpresas"></div>
 
@@ -127,31 +86,7 @@
   </script>
 					<br>
           <div class="clear"></div>
-					<h1>Listado de Empresas</h1>
-  <div id="empresas"></div>
-
-  <script>
-    fetch('json/test.json')
-      .then(response => response.json())
-      .then(data => {
-        const contenedor = document.getElementById('empresas');
-        data.forEach(empresa => {
-          contenedor.innerHTML += `
-            <div style="border:1px solid #ccc; padding:10px; margin:10px;">
-              <h2>${empresa.empresa}</h2>
-              <p><strong>Categoría:</strong> ${empresa.categoria}</p>
-              <p><strong>Descripción:</strong> ${empresa.descripcion}</p>
-              <p><strong>Dirección:</strong> ${empresa.direccion}</p>
-              <p><strong>Teléfono:</strong> ${empresa.telefono}</p>
-              <img src="${empresa.url_imagen}" alt="Logo de ${empresa.empresa}" style="max-width:200px;">
-            </div>
-          `;
-        });
-      })
-      .catch(error => {
-        console.error('Error al cargar el JSON:', error);
-      });
-  </script>
+					
 			</main>
 
 			<footer>
