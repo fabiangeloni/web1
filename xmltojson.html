@@ -2,40 +2,21 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Editor de Empresas → Exportar a JSON</title>
+  <title>Editor de Empresas desde JSON</title>
   <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f6f6f6;
-      padding: 20px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: #fff;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 8px;
-    }
-    th {
-      background-color: #eee;
-    }
-    input {
-      width: 100%;
-      box-sizing: border-box;
-      padding: 4px;
-    }
-    button {
-      margin: 10px 5px 20px 0;
-      padding: 10px 15px;
-      font-size: 14px;
-    }
+    body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    th, td { border: 1px solid #ccc; padding: 8px; }
+    th { background: #eee; }
+    input[type="text"] { width: 100%; box-sizing: border-box; padding: 4px; }
+    button { margin: 10px 5px 10px 0; padding: 10px; }
   </style>
 </head>
 <body>
 
-  <h2>Editor de Empresas</h2>
+  <h2>Editor de Empresas desde JSON</h2>
+
+  <input type="file" id="inputJSON" accept=".json" />
   <button onclick="agregarFila()">Agregar fila</button>
   <button onclick="descargarJSON()">Descargar JSON</button>
 
@@ -50,21 +31,40 @@
         <th>URL de Imagen</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td><input type="text" placeholder="Ej: La Estrella S.A." /></td>
-        <td><input type="text" placeholder="Ej: Limpieza" /></td>
-        <td><input type="text" placeholder="Ej: Productos de limpieza..." /></td>
-        <td><input type="text" placeholder="Ej: Calle 51 e/ 7 y 9" /></td>
-        <td><input type="text" placeholder="Ej: 1234567890" /></td>
-        <td><input type="text" placeholder="Ej: imagenes/logo.png" /></td>
-      </tr>
-    </tbody>
+    <tbody></tbody>
   </table>
 
   <script>
+    const tabla = document.querySelector("#tablaEmpresas tbody");
+
+    document.getElementById("inputJSON").addEventListener("change", function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        try {
+          const datos = JSON.parse(evt.target.result);
+          tabla.innerHTML = ""; // Limpiar tabla
+          datos.forEach(empresa => {
+            const fila = tabla.insertRow();
+            ["empresa", "categoria", "descripcion", "direccion", "telefono", "url_imagen"].forEach(campo => {
+              const celda = fila.insertCell();
+              const input = document.createElement("input");
+              input.type = "text";
+              input.value = empresa[campo] || "";
+              celda.appendChild(input);
+            });
+          });
+        } catch (err) {
+          alert("Error al leer el archivo JSON.");
+        }
+      };
+      reader.readAsText(file);
+    });
+
     function agregarFila() {
-      const fila = document.querySelector("#tablaEmpresas tbody").insertRow();
+      const fila = tabla.insertRow();
       for (let i = 0; i < 6; i++) {
         const celda = fila.insertCell();
         const input = document.createElement("input");
@@ -74,19 +74,19 @@
     }
 
     function descargarJSON() {
-      const filas = document.querySelectorAll("#tablaEmpresas tbody tr");
+      const filas = tabla.querySelectorAll("tr");
       const datos = [];
 
       filas.forEach(fila => {
-        const celdas = fila.querySelectorAll("input");
-        if (celdas[0].value.trim() !== "") { // Evitar guardar filas vacías
+        const inputs = fila.querySelectorAll("input");
+        if (inputs[0].value.trim() !== "") {
           datos.push({
-            empresa: celdas[0].value,
-            categoria: celdas[1].value,
-            descripcion: celdas[2].value,
-            direccion: celdas[3].value,
-            telefono: celdas[4].value,
-            url_imagen: celdas[5].value
+            empresa: inputs[0].value,
+            categoria: inputs[1].value,
+            descripcion: inputs[2].value,
+            direccion: inputs[3].value,
+            telefono: inputs[4].value,
+            url_imagen: inputs[5].value
           });
         }
       });
@@ -95,7 +95,7 @@
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = "empresas.json";
+      a.download = "empresas_actualizado.json";
       a.click();
       URL.revokeObjectURL(url);
     }
