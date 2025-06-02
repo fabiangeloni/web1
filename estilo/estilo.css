@@ -126,8 +126,8 @@ margin:0px auto;}
             }
 
 .boton-hero button{padding: 10px 60px;
-            border-radius: 17px;
-            background-color: aquamarine;
+            border-radius: 22px;
+            background-color: #ECA02E;
             text-align: center;
             cursor: pointer;
             border: none;
@@ -138,8 +138,8 @@ margin:0px auto;}
         margin: 10px;}
 
 .boton-hero button:hover{padding: 10px 60px;
-            border-radius: 17px;
-            background-color: rgb(0, 193, 77);
+            border-radius: 22px;
+            background-color: #3C8B82;
             text-align: center;
             cursor: pointer;
             border: none;
@@ -174,6 +174,19 @@ line-height: 23px;}
                      overflow: hidden;
                      box-shadow: 5px 5px 15px #1f1f1f;}
 
+.scroll-down {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  color: #3C8B82; 
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
 main{max-width:1280px;
      margin:0px auto;
      min-height: 100vh;
@@ -204,10 +217,10 @@ footer{width:100%;
 .circulo-wrap{width: auto;
               margin:0px auto;}
 
-.circulo{width: 160px;
+.circulo1{width: 160px;
          height: 160px;
          border-radius: 80px;
-         background-color: red;
+         background-color: #ECA02E;
          text-align: center;
          font-size:4.5em;
          color: white;
@@ -216,3 +229,38 @@ footer{width:100%;
          float: left;
          margin: 55px;}
 
+         .circulo2{width: 160px;
+         height: 160px;
+         border-radius: 80px;
+         background-color: #3C8B82;
+         text-align: center;
+         font-size:4.5em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 27px;
+         float: left;
+         margin: 55px;}
+
+.circulo3{width: 160px;
+         height: 160px;
+         border-radius: 80px;
+         background-color: #D6472A;
+         text-align: center;
+         font-size:4.5em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 27px;
+         float: left;
+         margin: 55px;}
+
+.circulo4{width: 160px;
+         height: 160px;
+         border-radius: 80px;
+         background-color: #E56222;
+         text-align: center;
+         font-size:4.5em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 27px;
+         float: left;
+         margin: 55px;}
