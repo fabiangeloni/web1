@@ -19,14 +19,23 @@
 }
 
 
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
 .logo{width:auto;
       height:auto;
-      margin: 25px 20px 0px 25px;
-      float: left;}
+      margin: 25px auto 20px auto;
+     }
 
 .logo img{width:250px;
           height:auto;
-          margin-left: 40px;}
+          }
 
 nav{float:right;
     margin:40px 60px 40px 30px;
@@ -82,29 +91,41 @@ header{width:100%;
        position: fixed;
        top: 0px;
        left: 0px;
+       text-align: center;
       }
 
 .hero{max-width:100%;
-      min-height: 415px;
-      background-image: url(../imagenes/hero.png);
+      min-height: 625px;
+      background-image: url(../imagenes/hero.jpg);
       background-repeat: no-repeat;
-      background-position:bottom;
+      background-position-y:40%;
       background-size: cover;
       background-blend-mode:soft-light;
-      background-color:rgb(50, 50, 50);
+      background-color:rgb(20, 20, 20);
       overflow: auto;  
-      padding-top: 100px;    
+      padding-top: 100px;  
+        
 }
 
 .contenedor-hero{max-width: 1280px;
 overflow: auto;
 margin:0px auto;}
 
-.boton-hero{margin: 0px auto;
-            width: 47%;
+.boton-hero{margin: 30px auto 10px auto;
+            
             text-align: center;}
 
-.boton-hero button{padding: 10px 20px;
+            .boton-secundario{
+            background-color: rgb(86, 86, 86)!important;
+            padding: 10px 20px!important;
+            }
+
+            .boton-secundario:hover{
+            background-color: rgb(125, 125, 125)!important;
+            padding: 10px 20px!important;
+            }
+
+.boton-hero button{padding: 10px 60px;
             border-radius: 17px;
             background-color: aquamarine;
             text-align: center;
@@ -112,9 +133,11 @@ margin:0px auto;}
             border: none;
             font-size: 1.0em;
             font-weight: 600;
-            font-style: italic;}
+            font-style: italic;
+          float: left;
+        margin: 10px;}
 
-.boton-hero button:hover{padding: 10px 20px;
+.boton-hero button:hover{padding: 10px 60px;
             border-radius: 17px;
             background-color: rgb(0, 193, 77);
             text-align: center;
@@ -124,20 +147,22 @@ margin:0px auto;}
             font-weight: 600;
             font-style: italic;}
 
-h1{font-family: "Bebas Neue", sans-serif;
-   font-weight: normal;
-   font-size: 3.9em;
-line-height: 54px;}
 
-h5{font-family: "Open Sans", sans-serif;
+
+h1{font-family: "Raleway", sans-serif;
+   font-weight: normal;
+   font-size: 3.0em;
+line-height: 52px;}
+
+h5{font-family: "Raleway", sans-serif;
 font-weight: normal;
    font-size: 1em;
-line-height: 20px;}
+line-height: 23px;}
 
-.contenedor-hero-izq{max-width: 47%;
+.contenedor-hero-izq{max-width: 50%;
                      float: left;
                      padding: 10px;
-                     margin: 60px 20px 30px 40px;
+                     margin: 70px 20px 30px 40px;
                      color: white;}
 
 .contenedor-hero-der{max-width: 423px;
