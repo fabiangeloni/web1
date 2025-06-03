@@ -237,7 +237,7 @@ line-height: 23px;}
 
 .scroll-down {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   font-size: 2rem;
   color: #3C8B82; 
   animation: bounce 2s infinite;
