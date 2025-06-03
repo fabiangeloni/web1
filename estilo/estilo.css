@@ -325,3 +325,40 @@ footer{width:100%;
          padding-top: 27px;
          float: left;
          margin: 55px;}
+
+
+.formulario-input{margin:10px;
+                  padding:10px 30px;
+                  border-radius: 25px;
+                  min-width: 230px;
+                  border:1px solid #666;}
+
+.formulario-area{margin:10px;
+                  padding:10px 30px;
+                  border-radius: 25px;
+                  border:1px solid #666;
+                  min-width: 230px;
+                
+                  min-height:300px;}
+
+.formulario-boton{padding: 10px 60px;
+            border-radius: 22px;
+            background-color: #ECA02E;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            font-size: 1.0em;
+            font-weight: 600;
+            font-style: italic;
+        margin: 10px;}
+
+.formulario-boton:hover{padding: 10px 60px;
+            border-radius: 22px;
+            background-color: #3C8B82;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            font-size: 1.0em;
+            font-weight: 600;
+            font-style: italic;}
+
