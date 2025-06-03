@@ -164,59 +164,75 @@ font-weight: normal;
    font-size: 1em;
 line-height: 23px;}
 
-.contenedor-hero-izq{max-width: 50%;
+.contenedor-hero-izq{
+                     max-width: 50%;
                      float: left;
                      padding: 10px;
                      margin: 70px 20px 30px 40px;
-                     color: white;}
+                     color: white;
+                     }
 
-.contenedor-hero-der{max-width: 40%;
+.contenedor-hero-der{
+                     max-width: 40%;
                      float: right;
                      margin: 90px 60px 30px 0px;
                      color: white;
                      height: auto;
-                     
                      }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
 
   h1{font-family: "Raleway", sans-serif;
    font-weight: normal;
-   font-size: 2.0em;
+   font-size: 2.7em;
 line-height: 43px;}
 
-  .contenedor-hero-izq{max-width: 95%;
-                     
+  .contenedor-hero-izq{
+                     max-width: 95%;
                      padding: 10px;
                      margin: 70px 20px 30px 40px;
-                     color: white;}
-
-.contenedor-hero-der{max-width: 95%;
-                    ;
-                     margin: 90px 60px 30px 0px;
                      color: white;
-                     height: auto;
-                     
+                     /* clear: both; */
                      }
+
+.contenedor-hero-der{
+                    width: 95%;
+                    margin: 120px auto;
+                    color: white;
+                    height: auto;
+                    /* clear: both; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    flex-wrap: nowrap;
+                    flex-direction: row;
+                    float: none;
+                    FLEX: 1 1;
+                    }
   
 }
 
                      
 
 .hero-card {
-  position: relative;
-  top: -20px;
-  right: 0px;
+  /* position: relative; */
+  /* top: -20px; */
+  /* right: 0px; */
   background: #fff;
   color: #333;
   padding: 0 0 1.5rem 0;
   max-width: 320px;
   border-radius: 22px;
-  
   z-index: 20;
   font-size: 0.95rem;
   overflow: hidden;
+  /* flex: 1; */
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  /* align-content: stretch; */
+  min-width: 320px;
 }
 
 .hero-card-header {
