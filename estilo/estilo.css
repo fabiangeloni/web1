@@ -180,8 +180,68 @@ line-height: 23px;}
                      height: auto;
                      }
 
+.circulo-wrap{width: auto;
+              margin:0px auto;}
+
+.circulo1{width: 160px;
+         height: 160px;
+         border-radius: 80px;
+         background-color: #ECA02E;
+         text-align: center;
+         font-size:4.5em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 27px;
+         float: left;
+         margin: 55px 30px;}
+
+
+.circulo2{width: 160px;
+         height: 160px;
+         border-radius: 80px;
+         background-color: #3C8B82;
+         text-align: center;
+         font-size:4.5em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 27px;
+         float: left;
+         margin: 55px 30px;}
+
+.circulo3{width: 160px;
+         height: 160px;
+         border-radius: 80px;
+         background-color: #D6472A;
+         text-align: center;
+         font-size:4.5em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 27px;
+         float: left;
+         margin: 55px 30px;}
+
+.circulo4{width: 160px;
+         height: 160px;
+         border-radius: 80px;
+         background-color: #E56222;
+         text-align: center;
+         font-size:4.5em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 27px;
+         float: left;
+         margin: 55px 30px;}
+
+
 
 @media screen and (max-width: 880px) {
+
+  .circulo-wrap {
+    width: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
 
   h1{font-family: "Raleway", sans-serif;
    font-weight: normal;
@@ -211,6 +271,55 @@ line-height: 43px;}
                     FLEX: 1 1;
                     padding-top: 30px;
                     }
+
+         .circulo1{width: 360px;
+         height: 360px;
+         border-radius: 180px;
+         background-color: #ECA02E;
+         text-align: center;
+         font-size:9em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 78px;
+         float: left;
+         margin: 55px 30px;}
+
+         .circulo2{width: 360px;
+         height: 360px;
+         border-radius: 180px;
+         background-color: #3C8B82;
+         text-align: center;
+         font-size:9em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 78px;
+         float: left;
+         margin: 55px 30px;}
+
+.circulo3{width: 360px;
+         height: 360px;
+         border-radius: 180px;
+         background-color: #D6472A;
+         text-align: center;
+         font-size:9em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 78px;
+         float: left;
+         margin: 55px 30px;}
+
+.circulo4{width: 360px;
+         height: 360px;
+         border-radius: 180px;
+         background-color: #E56222;
+         text-align: center;
+         font-size:9em;
+         color: white;
+         vertical-align:middle;
+         padding-top: 78px;
+         float: left;
+         margin: 55px 30px;}
+
   
 }
 
@@ -297,56 +406,6 @@ footer{width:100%;
                   margin: 30px auto;
                    text-align: center;}
                    
-.circulo-wrap{width: auto;
-              margin:0px auto;}
-
-.circulo1{width: 160px;
-         height: 160px;
-         border-radius: 80px;
-         background-color: #ECA02E;
-         text-align: center;
-         font-size:4.5em;
-         color: white;
-         vertical-align:middle;
-         padding-top: 27px;
-         float: left;
-         margin: 55px 30px;}
-
-         .circulo2{width: 160px;
-         height: 160px;
-         border-radius: 80px;
-         background-color: #3C8B82;
-         text-align: center;
-         font-size:4.5em;
-         color: white;
-         vertical-align:middle;
-         padding-top: 27px;
-         float: left;
-         margin: 55px 30px;}
-
-.circulo3{width: 160px;
-         height: 160px;
-         border-radius: 80px;
-         background-color: #D6472A;
-         text-align: center;
-         font-size:4.5em;
-         color: white;
-         vertical-align:middle;
-         padding-top: 27px;
-         float: left;
-         margin: 55px 30px;}
-
-.circulo4{width: 160px;
-         height: 160px;
-         border-radius: 80px;
-         background-color: #E56222;
-         text-align: center;
-         font-size:4.5em;
-         color: white;
-         vertical-align:middle;
-         padding-top: 27px;
-         float: left;
-         margin: 55px 30px;}
 
 
 .formulario-input{margin:10px;
