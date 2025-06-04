@@ -272,51 +272,51 @@ line-height: 43px;}
                     padding-top: 30px;
                     }
 
-         .circulo1{width: 360px;
-         height: 360px;
-         border-radius: 180px;
+         .circulo1{width: 260px;
+         height: 260px;
+         border-radius: 130px;
          background-color: #ECA02E;
          text-align: center;
-         font-size:9em;
+         font-size:8em;
          color: white;
          vertical-align:middle;
-         padding-top: 78px;
+         padding-top: 40px;
          float: left;
          margin: 55px 30px;}
 
-         .circulo2{width: 360px;
-         height: 360px;
-         border-radius: 180px;
+         .circulo2{width: 260px;
+         height: 260px;
+         border-radius: 130px;
          background-color: #3C8B82;
          text-align: center;
-         font-size:9em;
+         font-size:8em;
          color: white;
          vertical-align:middle;
-         padding-top: 78px;
+         padding-top: 40px;
          float: left;
          margin: 55px 30px;}
 
-.circulo3{width: 360px;
-         height: 360px;
-         border-radius: 180px;
+.circulo3{width: 260px;
+         height: 260px;
+         border-radius: 130px;
          background-color: #D6472A;
          text-align: center;
-         font-size:9em;
+         font-size:8em;
          color: white;
          vertical-align:middle;
-         padding-top: 78px;
+         padding-top: 40px;
          float: left;
          margin: 55px 30px;}
 
-.circulo4{width: 360px;
-         height: 360px;
-         border-radius: 180px;
+.circulo4{width: 260px;
+         height: 260px;
+         border-radius: 130px;
          background-color: #E56222;
          text-align: center;
-         font-size:9em;
+         font-size:8em;
          color: white;
          vertical-align:middle;
-         padding-top: 78px;
+         padding-top: 40px;
          float: left;
          margin: 55px 30px;}
 
