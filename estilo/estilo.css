@@ -43,7 +43,7 @@ html {
 
 nav{float:right;
     margin:40px 60px 40px 30px;
-  color:#3C8B82;}
+    color:#3C8B82;}
 
 nav ul{display: flex;
    gap:20px;}
@@ -105,7 +105,7 @@ header{width:100%;
       background-position-y:40%;
       background-size: cover;
       background-blend-mode:soft-light;
-      background-color:rgb(20, 20, 20);
+      background-color:rgb(60, 60, 60);
       overflow: auto;  
       padding-top: 100px; 
       
@@ -175,7 +175,7 @@ line-height: 23px;}
 .contenedor-hero-der{
                      max-width: 40%;
                      float: right;
-                     margin: 90px 60px 30px 0px;
+                     margin: 80px 60px 30px 0px;
                      color: white;
                      height: auto;
                      }
@@ -331,7 +331,6 @@ line-height: 43px;}
   /* right: 0px; */
   background: #fff;
   color: #333;
-  padding: 0 0 1.5rem 0;
   max-width: 320px;
   border-radius: 22px;
   z-index: 20;
@@ -346,7 +345,7 @@ line-height: 43px;}
 }
 
 .hero-card-header {
-  background: #ff4d4d;
+  background: #26867d;
   color: #fff;
   padding:1.4rem;
   font-weight: bold;
