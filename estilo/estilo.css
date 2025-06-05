@@ -320,6 +320,20 @@ line-height: 43px;}
          float: left;
          margin: 55px 30px;}
 
+         .hero {
+    max-width: 100%;
+    min-height: 625px;
+    background-image: url(../imagenes/hero.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 40%;
+    background-position-x: 30%;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(60, 60, 60);
+    overflow: auto;
+    padding-top: 100px;
+}
+
   
 }
 
