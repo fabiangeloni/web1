@@ -364,16 +364,42 @@ line-height: 43px;}
   margin-bottom: 0.8rem;
   line-height: 1.4;
 }
+.animate{animation:swing 2s infinite;
+font-size: 1.5rem;}
 
 .scroll-down {
   text-align: center;
   margin-top: 0.5rem;
   font-size: 2.7rem;
   color: #3C8B82; 
-  animation: bounce 2s infinite;
+  animation: bounced 2s infinite;
 }
 
-@keyframes bounce {
+.scroll-down a:hover {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 2.7rem;
+  color: #3C8B82; 
+  animation: bounced 2s infinite;
+}
+
+.scroll-down:active {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 2.7rem;
+  color: #3C8B82; 
+  animation: bounced 2s infinite;
+}
+
+.scroll-down a:visited {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 2.7rem;
+  color: #3C8B82; 
+  animation: bounced 2s infinite;
+}
+
+@keyframes bounced {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(8px); }
 }
