@@ -381,7 +381,7 @@ line-height: 43px;}
                      
 
 .hero-card {
-  background: rgba(255, 255, 255, 0.20); /* Blanco translúcido */
+  background: rgba(255, 255, 255, 0.50); /* Blanco translúcido */
   color: #000000;
   max-width: 320px;
   border-radius: 22px;
@@ -392,9 +392,9 @@ line-height: 43px;}
   justify-content: center;
   min-width: 320px;
 
-  backdrop-filter: blur(10px); /* Difumina el fondo detrás */
-  -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Opcional: borde suave */
+ /* backdrop-filter: blur(10px);  Difumina el fondo detrás */
+ /* -webkit-backdrop-filter: blur(10px);  Soporte para Safari */
+   /* border: 1px solid rgba(255, 255, 255, 0.3);Opcional: borde suave */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 
 }
