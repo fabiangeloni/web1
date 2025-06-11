@@ -381,22 +381,22 @@ line-height: 43px;}
                      
 
 .hero-card {
-  /* position: relative; */
-  /* top: -20px; */
-  /* right: 0px; */
-  background: #fff;
-  color: #333;
+  background: rgba(255, 255, 255, 0.20); /* Blanco translúcido */
+  color: #000000;
   max-width: 320px;
   border-radius: 22px;
   z-index: 20;
   font-size: 0.95rem;
   overflow: hidden;
-  /* flex: 1; */
-  /* display: flex; */
   flex-direction: column;
   justify-content: center;
-  /* align-content: stretch; */
   min-width: 320px;
+
+  backdrop-filter: blur(10px); /* Difumina el fondo detrás */
+  -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Opcional: borde suave */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
 }
 
 .hero-card-header {
