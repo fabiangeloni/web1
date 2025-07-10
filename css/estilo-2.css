@@ -1,0 +1,207 @@
+:root {
+  --color-primario-inicio: #FF416C;
+  --color-primario-fin: #FF4B2B;
+  --color-secundario-inicio: #24C6DC;
+  --color-secundario-fin: #514A9D;
+  --color-fondo: #121212;
+  --color-texto-claro: #F0F0F0;
+  --color-texto-secundario: #CCCCCC;
+  --radio-boton: 20px;
+  --sombra-fuerte: 0 8px 20px rgba(255, 75, 43, 0.6);
+  --sombra-sutil: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, var(--color-primario-inicio), var(--color-primario-fin));
+  color: var(--color-texto-claro);
+  margin: 0;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  animation: fadeInBody 1.5s ease-in-out;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  color: var(--color-texto-claro);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p, li {
+  font-weight: 400;
+  color: var(--color-texto-secundario);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+}
+
+header {
+  background: linear-gradient(90deg, var(--color-secundario-inicio), var(--color-secundario-fin));
+  padding: 3rem 2rem 2.5rem;
+  text-align: center;
+  box-shadow: var(--sombra-fuerte);
+  border-radius: 0 0 40px 40px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: -4rem auto 0 auto;
+  padding: 3rem 2rem 3rem;
+  background: rgba(18, 18, 18, 0.85);
+  border-radius: 30px;
+  box-shadow: var(--sombra-sutil);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+section {
+  background: linear-gradient(145deg, #1f1f1f, #2c2c2c);
+  border-radius: 25px;
+  padding: 2.5rem 2.5rem 3rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.7);
+  transition: box-shadow 0.4s ease, transform 0.3s ease;
+}
+
+section:hover {
+  box-shadow: 0 12px 32px rgba(255, 75, 43, 0.8);
+  transform: translateY(-8px);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+
+.cta {
+  background: linear-gradient(90deg, var(--color-primario-inicio), var(--color-primario-fin));
+  color: white;
+  border: none;
+  padding: 1.2rem 3rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: var(--radio-boton);
+  cursor: pointer;
+  box-shadow: var(--sombra-fuerte);
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+  margin-top: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.cta:hover {
+  background: linear-gradient(90deg, #ff5f70, #ff3a0f);
+  box-shadow: 0 15px 30px rgba(255, 58, 15, 0.9);
+}
+
+form {
+  display: grid;
+  gap: 2rem;
+}
+
+input, textarea {
+  background: #333333;
+  border: none;
+  border-radius: var(--radio-boton);
+  padding: 1.2rem 1.5rem;
+  font-size: 1.15rem;
+  color: var(--color-texto-claro);
+  font-weight: 500;
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+  resize: vertical;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.7);
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaaaaa;
+  font-weight: 300;
+}
+
+input:focus, textarea:focus {
+  background: #4a1f1a;
+  box-shadow: 0 0 12px 3px var(--color-primario-fin);
+  outline: none;
+  color: #fff;
+}
+
+button[type="submit"] {
+  background: linear-gradient(90deg, var(--color-secundario-inicio), var(--color-secundario-fin));
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 1.2rem 3rem;
+  border-radius: var(--radio-boton);
+  box-shadow: 0 10px 24px rgba(81, 74, 157, 0.8);
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(90deg, #6354b7, #342a74);
+  box-shadow: 0 15px 35px rgba(50, 44, 155, 0.9);
+}
+
+ul, ol {
+  margin-left: 1.75rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background: linear-gradient(90deg, var(--color-secundario-inicio), var(--color-secundario-fin));
+  color: white;
+  text-align: center;
+  padding: 3rem 2rem;
+  font-size: 1rem;
+  border-radius: 40px 40px 0 0;
+  box-shadow: var(--sombra-fuerte);
+  margin-top: 4rem;
+}
+
+/* Animaciones */
+@keyframes fadeInBody {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
