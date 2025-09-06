@@ -223,14 +223,19 @@
     <!-- PREINSCRIPCIÓN -->
     <section class="section pre-registration" id="preinscripcion">
       <h2><i class="fa-solid fa-user-plus"></i> Preinscribite y empezá tu camino</h2>
-      <form class="pre-form">
-        <input type="text" placeholder="Nombre del emprendimiento" required />
-        <input type="text" placeholder="Rubro o productos" required />
-        <input type="email" placeholder="Email de contacto" required />
-        <input type="tel" placeholder="WhatsApp o teléfono" required />
-        <textarea placeholder="Contanos qué te inspira, cómo nació tu emprendimiento y qué te gustaría lograr siendo parte de la red."></textarea>
-        <button type="submit" class="btn-main"><i class="fa-solid fa-paper-plane"></i> Enviar preinscripción</button>
-      </form>
+      <h3>Completá el formulario y un miembro del equipo se pondrá en contacto para acompañarte en cada paso.</h3>
+      <form class="pre-form" action="https://formsubmit.co/fabiangeloni@gmail.com" method="POST">
+            <input class="formulario-input" type="text" name="nombre" placeholder="Tu nombre" required><br>
+            <input class="formulario-input" type="email" name="email" placeholder="Tu email" required><br>
+            <input class="formulario-input" type="tel" name="telefono" placeholder="Tu teléfono" required><br>
+            <textarea class="formulario-area" name="mensaje" placeholder="Contanos cómo se llama tu emprendimiento y una breve descripción. Nos comunicaremos luego para más detalles..." required></textarea><br>
+            <button class="formulario-boton btn-main" type="submit">Registrarme</button>
+
+            <!-- Opcionales: -->
+            <input type="hidden" name="_next" value="https://microemprendedores.com.ar/gracias.html"> <!-- redirige después de enviar -->
+            <input type="hidden" name="_captcha" value="false"> <!-- desactiva CAPTCHA -->
+          </form>
+      
       <div class="countdown" aria-live="polite" aria-atomic="true">
         Preinscripción abierta por: <span id="countdown-timer">Cargando...</span>
       </div>
