@@ -264,5 +264,17 @@
     document.getElementById('gallery-modal-gallery').innerHTML = '';
   }
 </script>
+<script>
+  // buscamos el checkbox del menú hamburguesa
+  const menuToggle = document.querySelector("#nav-toggle");
+  const menuLinks = document.querySelectorAll(".navbar a");
+
+  menuLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      menuToggle.checked = false; // desmarca el checkbox → se cierra el menú
+    });
+  });
+</script>
+
 </body>
 </html>
