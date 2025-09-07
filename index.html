@@ -10,10 +10,26 @@
   <link rel="stylesheet" type="text/css" href="css/estilo-propuesta.css"/>
 </head>
 <body>
+
+    <!-- Modal -->
+  <div id="modal" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        
+        
+        <button class="close-btn" id="close-x">✕</button>
+      </div>
+      <img src="img/reel-web.png" alt="microemprendedores logo">
+      <div class="modal-actions">
+        <button class="btn btn-primary" id="btn-entrar">Entrar al sitio</button>
+        
+      </div>
+    </div>
+  </div>
   <!-- NAVBAR -->
   <nav class="navbar">
     <div class="navbar-container">
-      <div class="logo"><a href="#"><img src="img/microemprendedores-logo.png" alt="microemprendedores logo"></a></div>
+      <div class="logo"><a href="index.html"><img src="img/microemprendedores-logo.png" alt="microemprendedores logo"></a></div>
       <!-- Botón Hamburguesa -->
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menú" />
       <label for="nav-toggle" class="hamburger" aria-label="Abrir menú">
@@ -279,6 +295,29 @@
     });
   });
 </script>
+ <!-- PREINSCRIPCIÓN -->
+  <script>
+    const modal = document.getElementById("modal");
+    const closeButtons = [
+      document.getElementById("close-x"),
+      document.getElementById("btn-entrar"),
+      document.getElementById("btn-cerrar")
+    ];
+
+    // mostrar modal solo si no se cerró antes
+    // if (!localStorage.getItem("modalCerrado")) {
+    //  modal.classList.add("active");
+   // }
+
+   modal.classList.add("active");
+
+    closeButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        modal.classList.remove("active");
+        localStorage.setItem("modalCerrado", "true");
+      });
+    });
+  </script>
 
 </body>
 </html>
