@@ -1211,6 +1211,26 @@
   "categoria": "Gastronomia",
   "haceEnvios": true,
   "urgencias": false
+},
+{ "id": "lenceriaml",
+  "nombre": "Lencería y Blanquería",
+  "direccion": "",
+  "telefono": "2473405122",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/MARIA-LAURA/FOTOS/foto-perfil.jpeg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/MARIA-LAURA/FOTOS/1.jpeg",
+    "https://microemprendedores.com.ar/img/MARIA-LAURA/FOTOS/2.jpeg",
+    "https://microemprendedores.com.ar/img/MARIA-LAURA/FOTOS/3.jpeg",
+    "https://microemprendedores.com.ar/img/MARIA-LAURA/FOTOS/4.jpeg",
+    "https://microemprendedores.com.ar/img/MARIA-LAURA/FOTOS/5.jpeg"
+  ],
+  "facebook": "https://www.facebook.com/marialaura.alaniz.33",
+  "instagram": "",
+  "descripcionCorta": "Ropa interior y blanquería para todos los talles. Calidad, confort y estilo para vos.",
+  "descripcionLarga": "María Laura te espera con su emprendimiento de Lencería y Blanquería, un espacio pensado para que encuentres todo lo que necesitás para sentirte cómodo y renovar tu hogar. Ofrece la más amplia variedad en ropa interior para damas y caballeros, con todos los talles, modelos y estilos. Además, cuenta con una completa línea de blanquería: sábanas, toallas, mantas y artículos textiles que combinan calidad, suavidad y diseño. Cada producto está seleccionado con cuidado para garantizar confort y durabilidad. En Lencería y Blanquería de María Laura vas a encontrar atención personalizada, precios accesibles y productos que se adaptan a vos.",
+  "categoria": "Indumentaria",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
  ]
