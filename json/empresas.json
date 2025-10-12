@@ -1371,6 +1371,26 @@
   "categoria": "Indumentaria",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "benteveocuadernos",
+  "nombre": "Benteveo Cuadernos",
+  "direccion": "",
+  "telefono": "2473445673",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/BENTEVEO-CUADERNOS/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/BENTEVEO-CUADERNOS/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/BENTEVEO-CUADERNOS/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/BENTEVEO-CUADERNOS/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/BENTEVEO-CUADERNOS/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/BENTEVEO-CUADERNOS/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/benteveocuadernos/",
+  "descripcionCorta": "Cuadernos y agendas artesanales. Encuadernación hecha a mano con diseño y dedicación.",
+  "descripcionLarga": "En Benteveo Cuadernos, el papel vuelve a tener alma. Este emprendimiento de encuadernación artesanal transforma materiales simples en objetos únicos, hechos completamente a mano: desde el diseño de las portadas hasta el interior de cada hoja. Su creadora domina diversas técnicas —copta, cadeneta, tradicional, japonesa, entre otras—, cada una con un trabajo minucioso de costura y terminación fina. Ofrece cuadernos comunes, journals, libros de dibujo (en distintos gramajes para lápiz, grafito, crayón o acuarela), agendas personalizadas, libros de fotos y diarios de bebé. Cada pieza es una mezcla de arte, paciencia y detalle. En Benteveo Cuadernos, escribir, dibujar o planificar se convierte en una experiencia sensorial: el placer de usar algo hecho con tiempo, historia y corazón.",
+  "categoria": "Artesanias",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
  ]
