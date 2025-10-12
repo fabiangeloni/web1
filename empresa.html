@@ -213,6 +213,51 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Función para truncar y agregar "Ver más / Ver menos"
+  function truncarTexto(elemento, maxLength) {
+    const fullText = elemento.textContent.trim();
+
+    if (fullText.length <= maxLength) return; // Si es corto, no hace nada
+
+    const shortText = fullText.slice(0, maxLength) + "... ";
+
+    elemento.textContent = shortText;
+
+    // Crear botón dinámico
+    const boton = document.createElement("span");
+    boton.textContent = "Ver más";
+    boton.style.fontWeight = "bold";
+    boton.style.cursor = "pointer";
+    boton.style.color = "#007bff"; // color opcional tipo link
+    elemento.appendChild(boton);
+
+    let expanded = false;
+
+    boton.addEventListener("click", () => {
+      if (!expanded) {
+        elemento.textContent = fullText + " ";
+        boton.textContent = "Ver menos";
+        elemento.appendChild(boton);
+        expanded = true;
+      } else {
+        elemento.textContent = shortText;
+        boton.textContent = "Ver más";
+        elemento.appendChild(boton);
+        expanded = false;
+      }
+    });
+  }
+
+  // Detectar pantalla móvil (≤768px)
+  if (window.innerWidth <= 768) {
+    const descripciones = document.querySelectorAll(".descripcion p");
+    descripciones.forEach(desc => truncarTexto(desc, 200));
+  }
+});
+</script>
+
 
 </body>
 </html>
