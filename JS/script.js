@@ -90,17 +90,28 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // === BÚSQUEDA MÓVIL ===
-    const searchBtnMobile = document.querySelector('.search-btn-mobile');
-    const searchInputMobile = document.querySelector('.search-input-mobile');
+    // === BÚSQUEDA MÓVIL ===
+const searchBtnMobile = document.querySelector('.search-btn-mobile');
+const searchInputMobile = document.querySelector('.search-input-mobile');
 
-    if (searchBtnMobile && searchInputMobile) {
-        searchBtnMobile.type = 'button';
-        searchBtnMobile.addEventListener('click', () => realizarBusqueda(searchInputMobile));
-        searchInputMobile.addEventListener('keypress', function (e) {
-            if (e.key === 'Enter') {
-                e.preventDefault();
-                realizarBusqueda(searchInputMobile);
-            }
-        });
-    }
+if (searchBtnMobile && searchInputMobile) {
+    searchBtnMobile.type = 'button';
+    searchBtnMobile.addEventListener('click', () => {
+        realizarBusqueda(searchInputMobile);
+
+        // 🔹 Cerrar panel móvil automáticamente
+        if (searchMobile) searchMobile.classList.remove('active');
+    });
+
+    searchInputMobile.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            realizarBusqueda(searchInputMobile);
+
+            // 🔹 Cerrar panel móvil automáticamente
+            if (searchMobile) searchMobile.classList.remove('active');
+        }
+    });
+}
+
 });
