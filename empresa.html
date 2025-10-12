@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio Claudia Álvarez</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <meta name="description" content="Microemprendedores Colón - Apoyando a los emprendedores locales con presencia en línea. Guía digital de emprendedores de COlón, provincia de Buenos Aires" />
+
+  <meta name="keywords" content="Microemprendedores, Colón, Emprendedores, Negocios Locales, Apoyo a Emprendedores, Presencia en Línea, Artesanos, Gastronomicos" />
+ 
+  <meta name="author" content="Instituto SUperior N°124 - Tecnicatura Superior en Desarrollado de Software" />
+  <meta property="og:title" content="Microemprendedores de Colón">
+  <meta property="og:image" content="https://microemprendedores.com.ar/img/preview.png">
+  <meta property="og:description" content="La guía de emprendedores colonenses">
+  <meta property="og:url" content="https://microemprendedores.com.ar">
+<meta property="og:type" content="website">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estiloo/estilo.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="logo-microemprendedor">
+  <a href="index.html">
+    <img src="img/logo-chico.png" alt="Logo Microemprendedores Colón" />
+  </a>
+</div>
+
+<!-- Sección de perfil con logo y datos -->
+<section class="perfil">
+    <div class="logo">
+        <img src="" alt="" />
+    </div>
+
+    <div class="info">
+        <div class="nombre-emprendimiento">
+            <h2></h2>
+        </div>
+
+        <div class="iconos-contacto">
+            <!-- Iconos dinámicos aquí -->
+        </div>
+
+        <div class="boton-wsp">
+            <a href="#" style="display:none;">WhatsApp</a>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de descripción -->
+<section class="descripcion">
+    <p class="breve"></p>
+    <p class="larga"></p>
+</section>
+
+<!-- Carrusel de imágenes -->
+<section class="carrusel">
+    <div class="carrusel-track" id="carruselTrack"></div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Microemprendedores Colón - Todos los derechos reservados.</p>
+  <a href="https://microemprendedores.com.ar"><img src="img/logo-footer.png" alt="Logo Microemprendedores Colón"/></a>
+</footer>
+
+<script>
+  const urlJSON = 'https://fabiangeloni.github.io/emprendedores-oct/json/empresas.json';
+
+  async function inicializar() {
+    try {
+      const response = await fetch(urlJSON);
+      if (!response.ok) throw new Error("No se pudo cargar el JSON");
+      const empresas = await response.json();
+
+      // --- Obtener parámetro "id" de la URL ---
+      const params = new URLSearchParams(window.location.search);
+      const empresaId = params.get('id');
+
+      // --- Buscar empresa por ID ---
+      let empresa = empresas.find(e => e.id.toLowerCase() === (empresaId || '').toLowerCase());
+      if (!empresa) empresa = empresas[0]; // fallback
+
+      // --- Fondo dinámico de la sección PERFIL ---
+      const seccionPerfil = document.querySelector('.perfil');
+      if (empresa.fotos && empresa.fotos.length > 0) {
+        seccionPerfil.style.backgroundImage = `url('${empresa.fotos[0]}')`;
+      }
+
+      // --- Foto y nombre ---
+      const logoImg = document.querySelector('.logo img');
+      logoImg.src = empresa.fotoPerfil;
+      logoImg.alt = empresa.nombre;
+      document.querySelector('.nombre-emprendimiento h2').textContent = empresa.nombre;
+
+      // --- Título dinámico ---
+      document.title = empresa.nombre + " - Microemprendedores Colón";
+
+      // --- Iconos de contacto dinámicos ---
+      const iconos = document.querySelector('.iconos-contacto');
+      let htmlIconos = "";
+
+      // Teléfono fijo
+      if (empresa.telefonoFijo && empresa.telefonoFijo.trim() !== "") {
+        htmlIconos += `<a href="tel:${empresa.telefonoFijo}" target="_blank"><i class="fas fa-phone"></i></a>`;
+      }
+
+      // Dirección
+      if (empresa.direccion && empresa.direccion.trim() !== "") {
+        htmlIconos += `<a href="https://www.google.com/maps?q=${encodeURIComponent(empresa.nombre + ' ' + empresa.direccion)}" target="_blank"><i class="fas fa-map-marker-alt"></i></a>`;
+      }
+
+      // Instagram
+      if (empresa.instagram && empresa.instagram.trim() !== "") {
+        htmlIconos += `<a href="${empresa.instagram}" target="_blank"><i class="fab fa-instagram"></i></a>`;
+      }
+
+      // Facebook
+      if (empresa.facebook && empresa.facebook.trim() !== "") {
+        htmlIconos += `<a href="${empresa.facebook}" target="_blank"><i class="fab fa-facebook-f"></i></a>`;
+      }
+
+      iconos.innerHTML = htmlIconos;
+
+      // --- Botón WhatsApp ---
+      const botonWsp = document.querySelector('.boton-wsp a');
+      if (empresa.telefono && empresa.telefono.trim() !== "") {
+        botonWsp.href = `https://wa.me/54${empresa.telefono}?text=${encodeURIComponent('Hola! Te encontré en https://colon.microemprendedores.com.ar y quiero hacerte una consulta.')}`;
+
+        botonWsp.style.display = "inline-block";
+      } else {
+        botonWsp.style.display = "none";
+      }
+
+      // --- Descripciones ---
+      document.querySelector('.descripcion .breve').textContent = empresa.descripcionCorta;
+      document.querySelector('.descripcion .larga').textContent = empresa.descripcionLarga;
+
+      // --- Carrusel ---
+      const carrusel = document.getElementById('carruselTrack');
+      const repeticiones = 4;
+      let contenidoCarrusel = "";
+      if (empresa.fotos && empresa.fotos.length > 0) {
+        for (let i = 0; i < repeticiones; i++) {
+          contenidoCarrusel += empresa.fotos
+            .map(foto => `<div class="carrusel-slide"><img src="${foto}" alt="${empresa.nombre}" /></div>`)
+            .join('');
+        }
+      }
+      carrusel.innerHTML = contenidoCarrusel;
+
+    } catch (error) {
+      console.error("Error al cargar empresas:", error);
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', inicializar);
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const track = document.getElementById("carruselTrack");
+  let isDragging = false;
+  let startX;
+  let scrollLeft;
+
+  // --- Mouse (escritorio) ---
+  track.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    track.classList.add("grabbing");
+    startX = e.pageX - track.offsetLeft;
+    scrollLeft = track.scrollLeft;
+  });
+
+  track.addEventListener("mouseleave", () => {
+    isDragging = false;
+    track.classList.remove("grabbing");
+  });
+
+  track.addEventListener("mouseup", () => {
+    isDragging = false;
+    track.classList.remove("grabbing");
+  });
+
+  track.addEventListener("mousemove", (e) => {
+    if (!isDragging) return;
+    e.preventDefault();
+    const x = e.pageX - track.offsetLeft;
+    const walk = (x - startX) * 1.3;
+    track.scrollLeft = scrollLeft - walk;
+  });
+
+  // --- Táctil (móvil) ---
+  track.addEventListener("touchstart", (e) => {
+    isDragging = true;
+    startX = e.touches[0].pageX - track.offsetLeft;
+    scrollLeft = track.scrollLeft;
+  });
+
+  track.addEventListener("touchend", () => {
+    isDragging = false;
+  });
+
+  track.addEventListener("touchmove", (e) => {
+    if (!isDragging) return;
+    const x = e.touches[0].pageX - track.offsetLeft;
+    const walk = (x - startX) * 1.2;
+    track.scrollTo({
+      left: scrollLeft - walk,
+      behavior: "smooth"
+    });
+  });
+});
+</script>
+
+</body>
+</html>
