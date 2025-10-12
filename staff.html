@@ -40,66 +40,93 @@
                 <a href="index.html"><img src="img/logo.png" alt="Microemprendedores Colón"></a>
             </div>
 
-            <!-- BARRA DE BÚSQUEDA -->
-            <div class="header-search-desktop">
-                <form id="form-buscador">
-                    <div class="search-box">
-                        <input id="buscador" type="text" placeholder="Buscar emprendedor..." class="search-input buscador">
-                        <button class="search-btn"><i class="fas fa-search"></i></button>
-                    </div>
-                </form>
-            </div>
+           
              <div class="header-actions">
-                                <!-- Botón de búsqueda solo en móvil -->
-                                <button class="btn-search-mobile buscador" id="btnSearchMobile" aria-label="Buscar">
-                                    <i class="fas fa-search"></i>
-                                </button>
+                               
 
                                 <!-- Botón CTA -->
                                 <a href="registro.html" class="btn-cta">
                                     <span>Sumate</span>
                                 </a>
-
-                                
-                            </div>
-        </div>
-        <!-- BARRA DE BÚSQUEDA MÓVIL (Expandible) -->
-        <div class="header-search-mobile" id="searchMobile">
-            <div class="search-mobile-wrapper">
-                <form class="flexform">
-                <input type="text" placeholder="Buscar..." class="search-input-mobile buscador">
-                <button class="search-btn-mobile">
-                    <i class="fas fa-search"></i>
-                </button>
-                <button class="search-close-mobile" id="btnCloseMobile">
-                    <i class="fas fa-times"></i>
-                </button>
-            </form>
+                           
             </div>
-        </div>
     </header>
 
-    <aside class="main-layout">
-        <div class="sidebar-filtros-iconos">
-            <ul>
-                <li><a href="#todas" class="filtro-btn" data-categoria="todas"><i class="fa-solid fa-store" title="Todas"></i><p>Todos</p></a></li>
-                <li><a href="#gastronomia" class="filtro-btn" data-categoria="gastronomia"><i class="fa-solid fa-utensils" title="Gastronomía"></i><p>Gastronomía</p></a></li>
-                <li><a href="#comerciantes" class="filtro-btn" data-categoria="comerciantes"><i class="fa-solid fa-cart-shopping" title="Comerciantes"></i><p>Comerciantes</p></a></li>
-                <li><a href="#artesanias" class="filtro-btn" data-categoria="artesanias"><i class="fa-solid fa-paintbrush" title="Artesanías"></i><p>Artesanos</p></a></li>
-                <li><a href="#indumentaria" class="filtro-btn" data-categoria="indumentaria"><i class="fa-solid fa-shirt" title="Indumentaria"></i><p>Indumentaria</p></a></li>
-                <li><a href="#servicios" class="filtro-btn" data-categoria="servicios"><i class="fa-solid fa-screwdriver-wrench" title="Servicios"></i><p>Servicios</p></a></li>
-            </ul>
-        </div>
-    </aside>
 
-    <main>
-        <section>
-            <h2 id="titulo-tarjetas">Mostrando 0 emprendedores</h2>
-            <div class="tarjetas-container" id="tarjetas-container">
-                <!-- Las tarjetas se generarán aquí -->
-            </div>
-        </section>
-    </main>
+     <main class="contenedor-staff">
+                <h1>Conocé a nuestro equipo</h1>
+
+                <section class="emprendedores-grid">
+                    <div class="tarjeta-staff" onclick="abrirModal('Product Owner', 'Responsable de definir la visión del producto y priorizar tareas.', [
+      {img:'imagenes/persona1.jpg', nombre:'Fabian, Angeloni'}])">
+                        <div class="contenedor-icono"><i class="fa-solid fa-user-tie icono"></i></div>
+                        <h3>Product Owner</h3>
+                    </div>
+
+                    <div class="tarjeta-staff" onclick="abrirModal('Desarrolladores Web', 'Equipo de desarrollo Frontend.', [
+      {img:'imagenes/persona2.jpg', nombre:'Celina, Albornoz'},
+      {img:'imagenes/persona3.jpg', nombre:'Roselen, Medina'},
+      {img:'imagenes/persona4.jpg', nombre:'Gustavo, Olvivera'}
+    ])">
+                        <div class="contenedor-icono"><i class="fa-solid fa-laptop-code icono"></i></div>
+                        <h3>Desarrolladores Web</h3>
+                    </div>
+
+                    <div class="tarjeta-staff" onclick="abrirModal('Recoleccion de Informacion', 'Equipo de investigacion, gestion de requisitos y recursos .', [
+      {img:'imagenes/persona5.jpg', nombre:'Pablo, Casi'},
+      {img:'imagenes/persona6.jpg', nombre:'Mauro, Alvarez'},
+      {img:'imagenes/persona7.jpg', nombre:'Santiago, Casi'}
+    ])">
+                       <div class="contenedor-icono"> <i class="fa-solid fa-magnifying-glass icono"></i></div>
+                        <h3>Recoleccion de Informacion</h3>
+                    </div>
+
+                    <div class="tarjeta-staff" onclick="abrirModal('Redacción de Contenido UX/UI', 'Especialistas en creacion de contenido.', [
+      {img:'imagenes/p1.jpg', nombre:'Angel, Sansoni'},
+      {img:'imagenes/p2.jpg', nombre:'Cristian, Meza'},
+      {img:'imagenes/p3.jpg', nombre:'Agustin, Buizart'},
+      {img:'imagenes/p4.jpg', nombre:'Aylen, Molina'},
+      {img:'imagenes/p5.jpg', nombre:'Florencia, Romero'},
+      {img:'imagenes/p6.jpg', nombre:'Luis, Albarracin'}
+    ])">
+                       <div class="contenedor-icono"> <i class="fa-solid fa-pen-nib icono"></i></div>
+                        <h3>Redacción de Contenido UX/UI</h3>
+                    </div>
+
+                    <div class="tarjeta-staff" onclick="abrirModal('Backend', 'Equipo de integracion de datos.', [
+      {img:'imagenes/p7.jpg', nombre:'Lucas, Britos'},
+      {img:'imagenes/p8.jpg', nombre:'Valentin, Homs'},
+      {img:'imagenes/p9.jpg', nombre:'Leonel, Frigerio'},
+      {img:'imagenes/p10.jpg', nombre:'Facundo, Alvarez'},
+      {img:'imagenes/p11.jpg', nombre:'Nicolas, Alarcon'}
+    ])">
+                      <div class="contenedor-icono">  <i class="fa-solid fa-server icono"></i></div>
+                        <h3>Backend</h3>
+                    </div>
+
+                    <div class="tarjeta-staff" onclick="abrirModal('(QA) Revisión de Contenido', 'Equipo de Testing.', [
+      {img:'imagenes/p12.jpg', nombre:'Ignacio, Distasio'},
+      {img:'imagenes/p13.jpg', nombre:'Nahuel, Terraza'},
+      {img:'imagenes/p14.jpg', nombre:'Gianna, Branca'},
+      {img:'imagenes/p15.jpg', nombre:'Federico, Pinto'}
+    ])">
+                      <div class="contenedor-icono">  <i class="fa-solid fa-spell-check icono"></i></div>
+                        <h3>(QA) Revisión de Contenido</h3>
+                    </div>
+                </section>
+
+                <!-- Modal -->
+                <div id="modal" class="modal">
+                    <div class="modal-contenido">
+                        <span class="cerrar" onclick="cerrarModal()">&times;</span>
+                        <h2 id="modal-nombre"></h2>
+                        <p id="modal-descripcion"></p>
+                        <div id="modal-galeria" class="galeria-personas"></div>
+                    </div>
+                </div>
+            </main>
+
+
             <!-- ========================================
          FOOTER
     ======================================== -->
@@ -143,7 +170,7 @@
                                 <a href="Microemprendedores.html">
                                     <i class="fas fa-chevron-right"></i> Ayuda a las Pymes
                                 </a>
-                               
+                            
                             </li>
                         </ul>
 
@@ -232,7 +259,7 @@
        
 
 <script src="JS/json.js"></script>
-<script src="JS/script.js"></script>
+
 
 </body>
 </html>
