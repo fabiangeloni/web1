@@ -1071,6 +1071,26 @@
   "categoria": "Gastronomia",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "mscuadros",
+  "nombre": "MS Cuadros",
+  "direccion": "",
+  "telefono": "2473409225",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/MS-CUADROS/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/MS-CUADROS/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/MS-CUADROS/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/MS-CUADROS/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/MS-CUADROS/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/MS-CUADROS/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/mscuadros_/",
+  "descripcionCorta": "Arte original en cuadros pintados a mano. Estilo moderno, colores vibrantes y diseños únicos.",
+  "descripcionLarga": "MS CUADROS nos invita a descubrir el arte hecho con alma. Desde marzo de 2010, este emprendimiento combina pasión, técnica y sensibilidad para transformar cualquier espacio con obras únicas pintadas a mano. Cada cuadro es una pieza irrepetible que refleja emociones y colores, ya sea en tonos suaves que transmiten calma o vibrantes que llenan de energía el ambiente. Trabaja estilos modernos y contemporáneos, utilizando técnicas en óleo, acrílico y mixtas que resaltan la textura y profundidad de cada obra. Además, ofrece cuadros personalizados y por encargo, adaptados al gusto y estilo de cada persona. Con MIS CUADROS, tu hogar se convierte en una galería viva donde el arte se siente y se disfruta todos los días.",
+  "categoria": "Artesanias",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
 
