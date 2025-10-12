@@ -111,11 +111,13 @@ document.addEventListener("DOMContentLoaded", () => {
       // Filtrado en tiempo real para ambos buscadores
       buscadores.forEach(input => {
         input.addEventListener("input", e => aplicarFiltros(e.target.value));
+         window.scrollTo({ top: 0, behavior: "smooth" });
       });
 
       // Filtrado por botones de categoría
       botones.forEach(btn => {
         btn.addEventListener("click", e => {
+           window.scrollTo({ top: 0, behavior: "smooth" });
           e.preventDefault();
           filtroCategoria = btn.dataset.categoria ? btn.dataset.categoria.toLowerCase() : "todas";
           // Aplicar filtros usando el valor del primer buscador (o vacío si no escribieron)
