@@ -1251,6 +1251,26 @@
   "categoria": "Servicios",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "objetosdepapel",
+  "nombre": "Objetos de Papel",
+  "direccion": "",
+  "telefono": "2473449642",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/OBJETOS-DE-PAPEL/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/OBJETOS-DE-PAPEL/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/OBJETOS-DE-PAPEL/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/OBJETOS-DE-PAPEL/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/OBJETOS-DE-PAPEL/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/OBJETOS-DE-PAPEL/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/objetosdepapel_/",
+  "descripcionCorta": "Piñatas y decoraciones personalizadas. Diseño artesanal para tus momentos especiales.",
+  "descripcionLarga": "En Objetos de Papel, la creatividad se convierte en fiesta. Este emprendimiento crea piñatas exclusivas que destacan por su tamaño, diseño y detalles únicos, pensadas para hacer de cada celebración un momento inolvidable. Además, ofrece un amplio abanico de decoraciones personalizadas para cumpleaños, casamientos, stands, aulas o actos escolares. Entre sus creaciones se encuentran banderines, stickers, marcos para fotos y todo lo que imagines para ambientar tus eventos con estilo y alegría. Cada pieza se realiza con dedicación artesanal, combinando color, imaginación y amor por los detalles. Objetos de Papel transforma tus ideas en decoración hecha con encanto.",
+  "categoria": "Artesanias",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
  ]
