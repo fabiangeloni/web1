@@ -13,39 +13,35 @@ document.addEventListener("DOMContentLoaded", () => {
   let empresas = [];
   let filtroCategoria = "todas";
 
- // Función para mostrar tarjetas
-function mostrarTarjetas(empresasFiltradas) {
+ function mostrarTarjetas(empresasFiltradas) {
   contenedor.innerHTML = "";
-  tituloTarjetas.textContent = `Mostrando ${empresasFiltradas.length} emprendedor${empresasFiltradas.length !== 1 ? "es" : ""}`;
 
-  // 🔹 Botón "Limpiar filtros"
-  let btnLimpiar = document.getElementById("btn-limpiar-filtros");
-  if (!btnLimpiar) {
-    btnLimpiar = document.createElement("button");
-    btnLimpiar.id = "btn-limpiar-filtros";
-    btnLimpiar.textContent = "Limpiar filtros";
-    btnLimpiar.style.marginLeft = "10px"; // opcional: espaciado
-    tituloTarjetas.insertAdjacentElement("afterend", btnLimpiar);
+  // Mostramos en consola la cantidad de empresas
+  console.log(`Mostrando ${empresasFiltradas.length} emprendedor${empresasFiltradas.length !== 1 ? "es" : ""}`);
 
-    btnLimpiar.addEventListener("click", () => {
-      // Limpiar inputs
-      buscadores.forEach(input => input.value = '');
-      // Resetear categoría
-      filtroCategoria = "todas";
-      // Mostrar todas las empresas
-      mostrarTarjetas(empresas);
-
-      // Quitar estado activo de botones de categoría
-      botones.forEach(b => b.classList.remove("activo"));
-    });
+  // Manejo del botón de limpiar filtros
+  let botonLimpiar = document.getElementById("btn-limpiar-filtros");
+  if (!botonLimpiar) {
+    // Crear el botón si no existe
+    botonLimpiar = document.createElement("button");
+    botonLimpiar.id = "btn-limpiar-filtros";
+    botonLimpiar.textContent = "Limpiar filtros";
+    botonLimpiar.style.display = "none"; // por defecto oculto
+    contenedor.parentNode.insertBefore(botonLimpiar, contenedor); // lo insertamos arriba de las tarjetas
   }
 
-  // Mostrar el botón solo si hay filtros aplicados
-  if (empresasFiltradas.length !== empresas.length) {
-    btnLimpiar.style.display = "inline-block";
-  } else {
-    btnLimpiar.style.display = "none";
-  }
+  // Determinar si hay algún filtro activo
+  const filtroActivo = (filtroCategoria && filtroCategoria !== "todas") || 
+                       Array.from(document.querySelectorAll(".buscador")).some(input => input.value.trim() !== "");
+
+  botonLimpiar.style.display = filtroActivo ? "inline-block" : "none";
+
+  // Al hacer click, limpiar filtros y mostrar todas las tarjetas
+  botonLimpiar.onclick = () => {
+    filtroCategoria = "todas";
+    document.querySelectorAll(".buscador").forEach(input => input.value = "");
+    mostrarTarjetas(empresas); // muestra todo desde JSON completo
+  };
 
   // Mezclar aleatoriamente
   const mezcladas = [...empresasFiltradas];
