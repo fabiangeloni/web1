@@ -1231,6 +1231,26 @@
   "categoria": "Indumentaria",
   "haceEnvios": true,
   "urgencias": false
+},
+{ "id": "macapturas",
+  "nombre": "MA Capturas",
+  "direccion": "",
+  "telefono": "2473455773",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/MAURO-ALVAREZ/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/MAURO-ALVAREZ/1.jpg",
+    "https://microemprendedores.com.ar/img/MAURO-ALVAREZ/2.jpg",
+    "https://microemprendedores.com.ar/img/MAURO-ALVAREZ/3.jpg",
+    "https://microemprendedores.com.ar/img/MAURO-ALVAREZ/4.jpg",
+    "https://microemprendedores.com.ar/img/MAURO-ALVAREZ/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/ma_capturas/",
+  "descripcionCorta": "Fotografía profesional para eventos y sesiones. Capturá tus momentos con estilo.",
+  "descripcionLarga": "Mauro nos ofrece un servicio de fotografía profesional pensado para capturar los momentos más importantes de tu vida. Especialista en eventos sociales, su lente transforma cada instante en una historia visual llena de emoción y estilo. Realiza coberturas completas de quince años, bodas, graduaciones, celebraciones y sesiones personales, además de producciones audiovisuales a medida. Su trabajo se destaca por la sensibilidad artística, el uso de luz natural y la edición cuidada que realza cada detalle. Con Mauro, tus recuerdos no solo se guardan, se viven y se reviven con cada foto. Imágenes que cuentan quién sos, en el momento justo.",
+  "categoria": "Servicios",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
