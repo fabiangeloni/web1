@@ -1111,6 +1111,26 @@
   "categoria": "Artesanias",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "panzallena",
+  "nombre": "Panza llena Corazón contento",
+  "direccion": "129 y 48 y 48 bis",
+  "telefono": "2473464155",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/PANZA-LLENA/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/PANZA-LLENA/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/PANZA-LLENA/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/PANZA-LLENA/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/PANZA-LLENA/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/PANZA-LLENA/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "",
+  "descripcionCorta": "Comidas caseras con delivery. Milanesas, empanadas y dulzuras que alegran el corazón.",
+  "descripcionLarga": "Carina nos conquista con su propuesta casera “Panza Llena, Corazón Contento”, donde cada bocado tiene sabor a hogar. Su emprendimiento ofrece delicias recién hechas: sandwiches de milanesa irresistibles, empanadas de pollo, tortas materas, facturas, tortas asadas y muchas cosas más, preparadas con ingredientes frescos y mucho amor. Lo mejor: ¡hace delivery los viernes, sábados y domingos! Ideal para disfrutar en familia, con amigos o simplemente para darte ese gusto que alegra el día. En Carina todo está pensado para que la comida no solo alimente, sino también abrace el alma. Porque cuando el sabor es casero, el corazón se nota contento.",
+  "categoria": "Gastronomia",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
  ]
