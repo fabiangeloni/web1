@@ -1133,7 +1133,7 @@
   "urgencias": false
 },
 { "id": "vivirmejor",
-  "nombre": "Vivir Mejor COlon",
+  "nombre": "Vivir Mejor Colon",
   "direccion": "",
   "telefono": "2473453569",
   "fotoPerfil": "https://microemprendedores.com.ar/img/VIVIR-MEJOR-COLON/FOTOS/foto-perfil.jpg",
@@ -1170,6 +1170,46 @@
   "descripcionLarga": "AndyLook nos trae una línea de cosmética capilar natural artesanal creada con el poder de las plantas. Cada producto está formulado con activos como aloe vera, romero, menta y otros ingredientes botánicos que estimulan el crecimiento del cabello, fortalecen la hebra capilar y aportan cuerpo, brillo y movimiento natural. Su elaboración artesanal garantiza frescura y pureza, cuidando el cuero cabelludo al eliminar impurezas y caspa de forma suave pero efectiva. AndyLook no solo embellece el cabello, sino que promueve un cuidado consciente, sostenible y libre de químicos agresivos. Ideal para quienes buscan volver a lo natural sin renunciar a la belleza ni a la salud capilar.",
   "categoria": "Servicios",
   "haceEnvios": false,
+  "urgencias": false
+},
+{ "id": "reciclarte",
+  "nombre": "Reciclarte",
+  "direccion": "",
+  "telefono": "2473474855",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/RECICLARTE/FOTOS/foto-perfil.jpeg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/RECICLARTE/FOTOS/1.jpeg",
+    "https://microemprendedores.com.ar/img/RECICLARTE/FOTOS/2.jpeg",
+    "https://microemprendedores.com.ar/img/RECICLARTE/FOTOS/3.jpeg",
+    "https://microemprendedores.com.ar/img/RECICLARTE/FOTOS/4.jpeg",
+    "https://microemprendedores.com.ar/img/RECICLARTE/FOTOS/5.jpeg"
+  ],
+  "facebook": "",
+  "instagram": "",
+  "descripcionCorta": "Arte sustentable. Objetos únicos hechos con materiales reciclados y mucho corazón.",
+  "descripcionLarga": "Miriam Alaniz nos inspira con Reciclarte, un emprendimiento donde la creatividad y la conciencia ambiental se encuentran. Su lema es claro: reutilizar, reciclar y reusar. Cada frasco, botella, corcho o lata cobra nueva vida gracias a su ingenio y amor por el planeta. Lo que otros descartan, Miriam lo transforma en objetos decorativos y funcionales llenos de historia y propósito. Reciclarte demuestra que el diseño sostenible puede ser bello, útil y responsable al mismo tiempo. Cada pieza invita a mirar con otros ojos los materiales cotidianos y a sumarse al cambio desde el arte, el respeto y la imaginación. Hecho con el corazón, pensado para cuidar el mundo.",
+  "categoria": "Artesanias",
+  "haceEnvios": false,
+  "urgencias": false
+},
+{ "id": "antojitosweet",
+  "nombre": "ANTOJ_ITOSWEET",
+  "direccion": "",
+  "telefono": "2473449212",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/ANTOJ_ITOSWEET/FOTOS/foto-perfil.jpeg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/ANTOJ_ITOSWEET/FOTOS/1.jpeg",
+    "https://microemprendedores.com.ar/img/ANTOJ_ITOSWEET/FOTOS/2.jpeg",
+    "https://microemprendedores.com.ar/img/ANTOJ_ITOSWEET/FOTOS/3.jpeg",
+    "https://microemprendedores.com.ar/img/ANTOJ_ITOSWEET/FOTOS/4.jpeg",
+    "https://microemprendedores.com.ar/img/ANTOJ_ITOSWEET/FOTOS/5.jpeg"
+  ],
+  "facebook": "https://www.facebook.com/antojitossweetcolon",
+  "instagram": "https://www.instagram.com/antoj_itossweet/",
+  "descripcionCorta": "Alfajores caseros, chocolate y pisetas con envío a domicilio. Dulzura artesanal 100%",
+  "descripcionLarga": "Rocío Aillapi nos abre las puertas de Antoj_itoSweet, un rincón donde la dulzura se hace a mano y con amor. Elaboran alfajores de maicena suaves y tentadores, alfajores bañados en chocolate irresistibles y pisetas caseras listas para compartir en cualquier momento del día. Todo se prepara de forma artesanal, con ingredientes frescos y el toque justo de cariño que hace la diferencia. Su propuesta combina sabor, calidad y comodidad, ofreciendo también envíos a domicilio para que puedas darte un antojo sin salir de casa. En Antoj_itoSweet, cada bocado es un abrazo dulce que alegra el corazón.",
+  "categoria": "Gastronomia",
+  "haceEnvios": true,
   "urgencias": false
 }
 
