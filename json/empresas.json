@@ -1131,6 +1131,46 @@
   "categoria": "Gastronomia",
   "haceEnvios": true,
   "urgencias": false
+},
+{ "id": "vivirmejor",
+  "nombre": "Vivir Mejor COlon",
+  "direccion": "",
+  "telefono": "2473453569",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/VIVIR-MEJOR-COLON/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/VIVIR-MEJOR-COLON/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/VIVIR-MEJOR-COLON/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/VIVIR-MEJOR-COLON/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/VIVIR-MEJOR-COLON/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/VIVIR-MEJOR-COLON/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/yoquierovivirmejor",
+  "instagram": "https://www.instagram.com/vivirmejorcolon/",
+  "descripcionCorta": "Accesorios de viaje con estilo. Showroom por cita para viajeros que aman la comodidad.",
+  "descripcionLarga": "Fernanda nos invita a explorar el mundo con estilo a través de Vivirmejorcolón, un espacio dedicado a los accesorios de viaje que combinan diseño, funcionalidad y confort. Su showroom —abierto con cita previa— ofrece una experiencia personalizada donde cada detalle está pensado para acompañarte en tus aventuras. Desde organizadores prácticos hasta complementos modernos, todo lo que necesitás para viajar cómodo, con onda y sin perder tu toque personal. Vivirmejorcolón es más que una tienda: es una inspiración para quienes aman descubrir, moverse y disfrutar de cada destino con la tranquilidad de tener todo bajo control.",
+  "categoria": "Comerciantes",
+  "haceEnvios": true,
+  "urgencias": false
+},
+{ "id": "andylook",
+  "nombre": "Andy Look",
+  "direccion": "11 entre 59 y 60 número 1287",
+  "telefono": "2473404476",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/ANDY-LOOK/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/ANDY-LOOK/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/ANDY-LOOK/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/ANDY-LOOK/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/ANDY-LOOK/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/ANDY-LOOK/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/andylook__/",
+  "descripcionCorta": "Cosmética capilar natural. Cabello fuerte, brillante y saludable con el poder de las plantas.",
+  "descripcionLarga": "AndyLook nos trae una línea de cosmética capilar natural artesanal creada con el poder de las plantas. Cada producto está formulado con activos como aloe vera, romero, menta y otros ingredientes botánicos que estimulan el crecimiento del cabello, fortalecen la hebra capilar y aportan cuerpo, brillo y movimiento natural. Su elaboración artesanal garantiza frescura y pureza, cuidando el cuero cabelludo al eliminar impurezas y caspa de forma suave pero efectiva. AndyLook no solo embellece el cabello, sino que promueve un cuidado consciente, sostenible y libre de químicos agresivos. Ideal para quienes buscan volver a lo natural sin renunciar a la belleza ni a la salud capilar.",
+  "categoria": "Servicios",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
