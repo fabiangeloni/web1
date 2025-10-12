@@ -1831,4 +1831,21 @@ cubic-bezier(.4, 1, .4, 1.1);
 
 .flexform{display: flex;}
 
+#btn-limpiar-filtros {
+  display: none; /* por defecto está oculto */
+  margin-top: 5px;
+  padding: 6px 12px;
+  background-color: #f04;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+#btn-limpiar-filtros:hover {
+  background-color: #d03;
+}
+
 
