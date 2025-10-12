@@ -1091,6 +1091,26 @@
   "categoria": "Artesanias",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "impresionesbarbara",
+  "nombre": "Impresiones Bárbara",
+  "direccion": "",
+  "telefono": "2473416373",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/foto-perfil.jpeg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/1.jpeg",
+    "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/2.jpeg",
+    "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/3.jpeg",
+    "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/4.jpeg",
+    "https://microemprendedores.com.ar/img/IMPRESIONES-BARBARA/FOTOS/5.jpeg"
+  ],
+  "facebook": "",
+  "instagram": "",
+  "descripcionCorta": "Tu espacio creativo para impresiones, diseño gráfico, fotografía y tarjetería con estilo.",
+  "descripcionLarga": "En Impresiones Bárbara, la creatividad se imprime en cada detalle. Somos un espacio donde la tecnología y el diseño se fusionan para ofrecerte soluciones gráficas con estilo y personalidad. Desde fotocopias precisas e impresiones de alta calidad hasta tarjetas de presentación, etiquetas y tarjetería para eventos, todo lo que hacemos tiene un toque de distinción. Nuestro equipo cuida cada trabajo como si fuera propio, aportando color, elegancia y un toque de glamour a tus proyectos. Además, acompañamos tus momentos más especiales con fotografía profesional, transformando cada recuerdo en una obra visual inolvidable. En Impresiones Bárbara no solo imprimimos, diseñamos experiencias que hablan bien de vos y de tu marca.",
+  "categoria": "Servicios",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
 
