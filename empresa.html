@@ -18,8 +18,8 @@
   <meta name="author" content="Instituto Superior N°124 - Tecnicatura Superior en Desarrollo de Software" />
   
   <meta property="og:title" content="Microemprendedores de Colón">
-  <meta property="og:image" content="https://microemprendedores.com.ar/img/preview.png">
-  <meta property="og:description" content="La guía de emprendedores colonenses">
+  <meta property="og:image" content="https://microemprendedores.com.ar/img/banner-web.png">
+  <meta property="og:description" content="La guía digital de emprendedores colonenses">
   <meta property="og:url" content="https://microemprendedores.com.ar">
   <meta property="og:type" content="website">
   
@@ -61,6 +61,9 @@
         <div class="boton-wsp">
             <a href="#" style="display:none;">WhatsApp</a>
         </div>
+        <div class="boton-compartir">
+  <button id="btnCompartir"><i class="fas fa-share-alt"></i> Compartir</button>
+</div>
     </div>
 </section>
 
@@ -258,6 +261,40 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const botonCompartir = document.getElementById("btnCompartir");
+
+  botonCompartir.addEventListener("click", async () => {
+    const urlActual = window.location.href;
+    const nombreEmpresa = document.querySelector(".nombre-emprendimiento h2")?.textContent || "Microemprendedores Colón";
+    const texto = `Mirá este emprendimiento local: ${nombreEmpresa} en Microemprendedores Colón 👇`;
+
+    // --- Si el navegador soporta la API nativa de compartir (móviles, etc.)
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: nombreEmpresa,
+          text: texto,
+          url: urlActual
+        });
+      } catch (err) {
+        console.log("Compartir cancelado o fallido:", err);
+      }
+    } else {
+      // --- Si no soporta compartir, copiamos la URL al portapapeles
+      try {
+        await navigator.clipboard.writeText(urlActual);
+        alert("✅ Enlace copiado: " + urlActual);
+      } catch (err) {
+        alert("No se pudo copiar el enlace.");
+      }
+    }
+  });
+});
+</script>
+
 
 </body>
 </html>
