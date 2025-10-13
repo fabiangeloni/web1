@@ -42,9 +42,9 @@
   "urgencias": false
 },
 {"id": "gf",
-  "nombre": "Viajes y Mini Fletes 24 hs",
+  "nombre": "GF Viajes y Mini Fletes",
   "direccion": "",
-  "telefono": "",
+  "telefono": "2473535136",
   "fotoPerfil": "https://microemprendedores.com.ar/img/GASTON-FERNANDEZ/FOTOS/foto-perfil.jpg",
   "fotos": [
     "https://microemprendedores.com.ar/img/GASTON-FERNANDEZ/FOTOS/1.jpg",
@@ -56,7 +56,9 @@
   "facebook": "",
   "instagram": "",
   "descripcionCorta": "Viajes, fletes y auxilios 🚐 Urgencias 24 horass con atención rápida y servicio confiable.",
-  "descripcionLarga": "Viajes y Mini Fletes 24 hs te ofrece un servicio confiable y rápido de traslados de media y larga distancia, mini fletes, y auxilio en ruta. Atendemos urgencias las 24 horas, todos los días del año, para que siempre tengas una solución a mano cuando más la necesitás.\nNos especializamos en viajes personales, traslados de encomiendas o muebles pequeños, y asistencia inmediata en caso de vehículos varados o emergencias.\nPriorizamos la puntualidad, seguridad y buen trato, brindando atención personalizada en cada viaje.\nYa sea un traslado urgente, un viaje planificado o un envío importante, estamos listos para ayudarte a llegar a destino sin complicaciones.\n✨ Viajes, fletes y auxilios — las 24 hs, siempre cerca tuyo.\n",
+  "descripcionLarga": "Viajes 🚕, fletes y auxilios de todo tipo de motos 🏍️🛵 Urgencias  las 24 horas con atención rápida y servicio confiable.
+
+Viajes  locales , media y larga distancia y Mini Fletes  y auxilio de Motos las 24 hs te ofrece un servicio confiable y rápido de traslados de media y larga distancia, mini fletes, y auxilio en ruta. Atendemos urgencias las 24 horas, todos los días del año, para que siempre tengas una solución a mano cuando más la necesitás. Nos especializamos en viajes personales, traslados de  muebles pequeños, artículos del hogar , herramientas de la construcción , Motos  asistencia inmediata en caso de todo tipo de Motos varadas o emergencias. Priorizamos la puntualidad, seguridad y buen trato, brindando atención personalizada en cada viaje hasta (4) personas  Ya sea un traslado urgente, un viaje planificado , estamos listos para ayudarte a llegar a destino sin complicaciones. ✨ Viajes,  Minis fletes y auxilios de motos  — las 24 hs, siempre cerca tuyo. ",
   "categoria": "servicios",
   "haceEnvios": false,
   "urgencias": false
@@ -1494,5 +1496,6 @@
 }
 
  ]
+
 
 
