@@ -165,6 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (searchInputMobile && searchMobilePanel && searchBtnInsideMobile) {
         searchBtnInsideMobile.type = 'button';
         searchBtnInsideMobile.addEventListener('click', () => {
+             window.scrollTo({ top: 0, behavior: "smooth" });
             realizarBusqueda(searchInputMobile);
             searchMobilePanel.classList.remove('active'); // cerrar panel automáticamente
         });
@@ -189,6 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (searchBtnDesktop && searchInputDesktopField) {
         searchBtnDesktop.type = 'button';
         searchBtnDesktop.addEventListener('click', () => realizarBusqueda(searchInputDesktopField));
+         window.scrollTo({ top: 0, behavior: "smooth" });
         searchInputDesktopField.addEventListener('keypress', e => {
             if (e.key === 'Enter') {
                 e.preventDefault();
