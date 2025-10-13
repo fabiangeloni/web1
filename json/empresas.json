@@ -42,9 +42,9 @@
   "urgencias": false
 },
 {"id": "gf",
-  "nombre": "GF Viajes y Mini Fletes",
+  "nombre": "Viajes y Mini Fletes 24 hs",
   "direccion": "",
-  "telefono": "2473535136",
+  "telefono": "",
   "fotoPerfil": "https://microemprendedores.com.ar/img/GASTON-FERNANDEZ/FOTOS/foto-perfil.jpg",
   "fotos": [
     "https://microemprendedores.com.ar/img/GASTON-FERNANDEZ/FOTOS/1.jpg",
@@ -56,7 +56,7 @@
   "facebook": "",
   "instagram": "",
   "descripcionCorta": "Viajes, fletes y auxilios 🚐 Urgencias 24 horass con atención rápida y servicio confiable.",
-  "descripcionLarga": "Viajes 🚕, fletes y auxilios de todo tipo de motos 🏍️🛵 Urgencias  las 24 horas con atención rápida y servicio confiable. Viajes  locales , media y larga distancia y Mini Fletes  y auxilio de Motos las 24 hs te ofrece un servicio confiable y rápido de traslados de media y larga distancia, mini fletes, y auxilio en ruta. Atendemos urgencias las 24 horas, todos los días del año, para que siempre tengas una solución a mano cuando más la necesitás. Nos especializamos en viajes personales, traslados de  muebles pequeños, artículos del hogar, herramientas de la construcción, Motos asistencia inmediata en caso de todo tipo de Motos varadas o emergencias. Priorizamos la puntualidad, seguridad y buen trato, brindando atención personalizada en cada viaje hasta (4) personas  Ya sea un traslado urgente, un viaje planificado , estamos listos para ayudarte a llegar a destino sin complicaciones. ✨ Viajes,  Minis fletes y auxilios de motos — las 24 hs, siempre cerca tuyo.",
+  "descripcionLarga": "Viajes y Mini Fletes 24 hs te ofrece un servicio confiable y rápido de traslados de media y larga distancia, mini fletes, y auxilio en ruta. Atendemos urgencias las 24 horas, todos los días del año, para que siempre tengas una solución a mano cuando más la necesitás.\nNos especializamos en viajes personales, traslados de encomiendas o muebles pequeños, y asistencia inmediata en caso de vehículos varados o emergencias.\nPriorizamos la puntualidad, seguridad y buen trato, brindando atención personalizada en cada viaje.\nYa sea un traslado urgente, un viaje planificado o un envío importante, estamos listos para ayudarte a llegar a destino sin complicaciones.\n✨ Viajes, fletes y auxilios — las 24 hs, siempre cerca tuyo.\n",
   "categoria": "servicios",
   "haceEnvios": false,
   "urgencias": false
@@ -82,9 +82,9 @@
   "urgencias": false
 },
 {"id": "kabubi",
-  "nombre": "KABUKI",
+  "nombre": "KABUBI",
   "direccion": "",
-  "telefono": "",
+  "telefono": "2473447234",
   "fotoPerfil": "https://microemprendedores.com.ar/img/KABUBI/FOTOS/foto-perfil.jpg",
   "fotos": [
     "https://microemprendedores.com.ar/img/KABUBI/FOTOS/1.jpg",
@@ -154,9 +154,9 @@
     "https://www.microemprendedores.com.ar/img/LUNA-AZUL/FOTOS/5.jpg"
   ],
   "facebook": "https://www.facebook.com/luciana.albarracin.22277",
-  "instagram": "https://www.instagram.com/lunaazul.crochet/",
-  "descripcionCorta": "Creaciones artesanales en crochet. Amigurumis, mandalas y detalles llenos de ternura.",
-  "descripcionLarga": "En Luna Azul, cada hilo cuenta una historia. Este emprendimiento artesanal se especializa en creaciones tejidas a mano con la técnica del crochet, combinando paciencia, dedicación y mucho amor. Entre sus productos podés encontrar amigurumis, sets de nacimiento, mandalas, llaveros, flores decorativas y mucho más. Cada pieza está hecha con materiales de calidad, cuidando los detalles y transmitiendo calidez en cada punto. Ideal para regalar, decorar o conservar como un recuerdo especial. En Luna Azul el arte del tejido se transforma en magia, uniendo tradición y ternura en cada creación.",
+  "instagram": "https://www.instagram.com/lunaazul_acce/",
+  "descripcionCorta": "Accesorios artesanales en macramé, sublimados y más, hechos a mano con amor y estilo.",
+  "descripcionLarga": "Luna Azul Accesorios nos ofrece un universo artesanal donde cada pieza cuenta una historia. Diseñamos y elaboramos a mano pulseras en macramé, collares, straps para celular y llaveros, combinando creatividad, color y estilo propio. A lo artesanal sumamos nuevas propuestas como colitas para el pelo, llaveros sublimados, llaveros de goma, broches, vinchas y mucho más, pensadas para acompañarte en el día a día con un toque único.\nEn Luna Azul, cada creación está hecha con dedicación y detalle, reflejando la pasión por lo hecho a mano y la búsqueda constante de innovación. Nos encontrás siempre en ferias, compartiendo nuestro trabajo y conectando con quienes valoran lo auténtico.\n📞 2473 47-5800 | 💙 Facebook: Luciana Albarracín | 📸 Instagram: @lunaazul.acce\nHecho con hilo, color y mucho corazón.",
   "categoria": "Artesanias",
   "haceEnvios": false,
   "urgencias": false
@@ -282,7 +282,7 @@
   "urgencias": true
 },
 {"id": "vivir-mejor",
-  "nombre": "ALARMAS VIVIR MEJOR",
+  "nombre": "VIVI TRANQUILO COLON",
   "direccion": "",
   "telefono": "2473453078",
   "fotoPerfil": "https://microemprendedores.com.ar/img/ALARMAS-VIVIR-MEJOR/FOTOS/foto-perfil.jpg",
@@ -294,7 +294,7 @@
     "https://microemprendedores.com.ar/img/ALARMAS-VIVIR-MEJOR/FOTOS/5.jpg"
   ],
   "facebook": "",
-  "instagram": "https://www.instagram.com/vivirmejorcolon",
+  "instagram": "https://www.instagram.com/vivitranquilocolon/",
   "descripcionCorta": "Alarmas X-28 con instalación y monitoreo 24hs | Seguridad para empresas, hogares y comercios.",
   "descripcionLarga": "Guillermo nos ofrece tranquilidad y seguridad las 24 horas con venta, instalación y monitoreo de alarmas X-28. Brinda soluciones pensadas para empresas, negocios y viviendas, adaptándose a cada necesidad con tecnología confiable y de última generación. El servicio incluye colocación profesional, soporte inmediato y atención personalizada, con el compromiso de responder siempre, incluso en urgencias 24hs. La marca X-28 es reconocida en el mercado por su eficacia y durabilidad, lo que garantiza a cada cliente la máxima protección en su hogar o lugar de trabajo. Porque la seguridad no tiene horarios, está disponible los 365 días del año para acompañarte en la prevención y cuidado de lo que más valorás.",
   "categoria": "Servicios",
@@ -1494,7 +1494,4 @@
 }
 
  ]
-
-
-
 
