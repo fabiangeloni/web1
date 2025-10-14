@@ -1571,6 +1571,46 @@
   "categoria": "Artesanias",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "claritapolirrubros",
+  "nombre": "Clarita Polirrubros",
+  "direccion": "24 y  53",
+  "telefono": "2473475026",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/CLARITA/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/CLARITA/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/CLARITA/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/CLARITA/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/CLARITA/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/CLARITA/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/clarita.polirubros/",
+  "descripcionCorta": "Polirubros con artículos de limpieza, almacén, pan, gas y más. Todo en un solo lugar.",
+  "descripcionLarga": "Wanda nos acerca Clarita Polirubros, un comercio pensado para cubrir todas tus necesidades diarias. Ofrece artículos de limpieza sueltos, productos de almacén, cigarrillos, artículos de Saphirus, gaseosas, gas, leña, pan y mucho más. Su atención cercana y variedad hacen que encontrar lo que necesitás sea rápido y cómodo. Clarita Polirubros combina practicidad, confianza y atención familiar, convirtiéndose en un aliado del hogar y el comercio local. Cada visita es un espacio donde la variedad, calidad y servicio se encuentran, haciendo que comprar sea fácil, confiable y sin complicaciones.",
+  "categoria": "Comerciantes",
+  "haceEnvios": false,
+  "urgencias": false
+},
+{ "id": "vacomopina",
+  "nombre": "Va como Piña",
+  "direccion": "",
+  "telefono": "2473494985",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/CLARITA/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/VA-COMO-PINA/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/VA-COMO-PINA/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/VA-COMO-PINA/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/VA-COMO-PINA/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/VA-COMO-PINA/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/vacomopinaddp.1",
+  "instagram": "https://www.instagram.com/vacomopina_ddp/",
+  "descripcionCorta": "Mesas dulces y postres caseros. Hechos con calidad y sin premezclas para todo evento.",
+  "descripcionLarga": "VCP comenzó en 2018 como un servicio de delivery y hoy se especializa en mesas dulces y postres grandes por pedido, elaborados con materia prima de primera calidad, sin cremas vegetales ni premezclas. Cada creación es casera, cuidada y personalizada para todo tipo de eventos: cumpleaños, bodas o celebraciones especiales. Además, cada semana elaboran postres en porciones que se venden en distintos puntos VCP, garantizando frescura y sabor auténtico. Este emprendimiento combina tradición, dedicación y pasión por la repostería artesanal, convirtiendo cada dulce en una experiencia única y memorable.",
+  "categoria": "Comerciantes",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
  ]
