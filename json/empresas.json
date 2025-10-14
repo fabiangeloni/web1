@@ -1711,6 +1711,46 @@
   "categoria": "Servicios",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "byrocio",
+  "nombre": "By Rocío",
+  "direccion": "",
+  "telefono": "2477488726",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/BY-ROCIO/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/BY-ROCIO/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/BY-ROCIO/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/BY-ROCIO/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/BY-ROCIO/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/BY-ROCIO/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "",
+  "descripcionCorta": "Budines, alfajores y tartas artesanales. Sabor casero para compartir y disfrutar.",
+  "descripcionLarga": "Rocío nos endulza la vida con sus budines, alfajores y tartas 100% artesanales, elaborados con ingredientes frescos y todo el amor de la cocina casera. Cada preparación está pensada para disfrutar en familia, regalar o acompañar esos momentos cotidianos que merecen un toque especial. Su propuesta combina sabor, textura y presentación, logrando productos deliciosos y auténticos. Desde los clásicos alfajores rellenos hasta las tartas más tentadoras, todo en Rocío se hace con dedicación y pasión por lo artesanal. Perfectos para compartir, celebrar o simplemente disfrutar con un buen mate.",
+  "categoria": "Gastronomia",
+  "haceEnvios": true,
+  "urgencias": false
+},
+{ "id": "cosmeticaqf",
+  "nombre": "Cosmética QF",
+  "direccion": "",
+  "telefono": "2473519929",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/COSMETICA-QF/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/COSMETICA-QF/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/COSMETICA-QF/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/COSMETICA-QF/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/COSMETICA-QF/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/COSMETICA-QF/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/quelquesfleurs123",
+  "instagram": "https://www.instagram.com/cosmeticaqf/",
+  "descripcionCorta": "Cosmética natural, artesanal, vegana y sin TACC. Belleza consciente y saludable.",
+  "descripcionLarga": "Marcela es la creadora de CosméticaQF, un emprendimiento dedicado a la elaboración de productos cosméticos naturales y artesanales, formulados con ingredientes de origen vegetal y totalmente aptos para veganos y sin TACC. Su propuesta busca cuidar la piel de manera saludable y responsable con el medio ambiente, ofreciendo alternativas libres de químicos agresivos. En cada feria de Colón y Junín, Marcela comparte su pasión por la cosmética consciente, acercando productos que combinan ciencia, naturaleza y amor por lo artesanal. CosméticaQF es belleza auténtica, hecha con propósito y respeto por tu bienestar.",
+  "categoria": "Artesanias",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
