@@ -1511,6 +1511,66 @@
   "categoria": "Servicios",
   "haceEnvios": false,
   "urgencias": true
+},
+{ "id": "karigarumi",
+  "nombre": "Karigarumi Creaciones",
+  "direccion": "40 e 18/19 N*888",
+  "telefono": "2364268985",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/KARIGARUMI/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/KARIGARUMI/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/KARIGARUMI/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/KARIGARUMI/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/KARIGARUMI/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/KARIGARUMI/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/karigarumi_creaciones/",
+  "descripcionCorta": "Creaciones artesanales al crochet y dos agujas. Muñecos, flores y prendas únicas.",
+  "descripcionLarga": "Karina nos trae Karigarumi Creaciones, un emprendimiento artesanal que combina creatividad y paciencia en cada detalle. Especializada en crochet y dos agujas, ofrece muñecos adorables, flores decorativas, prendas de vestir y accesorios únicos, todos hechos a mano. Cada pieza refleja dedicación, calidad y originalidad, pensada para regalar, decorar o disfrutar en casa. Karigarumi invita a descubrir la magia de lo hecho a mano: cada hilo, punto y acabado transmite calidez y personalidad. Perfecto para quienes buscan productos artesanales, exclusivos y con ese toque que solo el trabajo manual puede dar.",
+  "categoria": "Artesanias",
+  "haceEnvios": false,
+  "urgencias": false
+},
+{ "id": "manitosencantadas",
+  "nombre": "Manitos Encantadas",
+  "direccion": "",
+  "telefono": "2473454241",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/MANITOS-ENCANTADAS/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/MANITOS-ENCANTADAS/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/MANITOS-ENCANTADAS/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/MANITOS-ENCANTADAS/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/MANITOS-ENCANTADAS/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/MANITOS-ENCANTADAS/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/manitosencantadascolonbsas",
+  "instagram": "https://www.instagram.com/manitosencantadascolon/",
+  "descripcionCorta": "Decoraciones y ramos artesanales. Piñatas y pasacalles únicos para todo evento.",
+  "descripcionLarga": "Carla nos invita a celebrar con estilo a través de Manitos Encantadas Colón, un emprendimiento dedicado a crear pasacalles, ramos artesanales, piñatas y decoraciones para cumpleaños. Utilizan globos, flores, telas y materiales artesanales para transformar cada evento en un momento memorable. Cada creación se adapta al gusto y necesidades del cliente, agregando detalles únicos que marcan la diferencia. Manitos Encantadas no solo decora, sino que aporta alegría, color y personalidad a cada celebración. Ideal para quienes buscan decoración personalizada, artesanal y con amor, hecha para que cada recuerdo dure toda la vida.",
+  "categoria": "Artesanias",
+  "haceEnvios": false,
+  "urgencias": false
+},
+{ "id": "indiamarket",
+  "nombre": "India Market",
+  "direccion": "",
+  "telefono": "2473468040",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/INDIA-MARKET/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/INDIA-MARKET/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/INDIA-MARKET/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/INDIA-MARKET/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/INDIA-MARKET/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/INDIA-MARKET/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/colon.indiamarket/",
+  "descripcionCorta": "Accesorios en acero blanco, dorado y quirúrgico. Estilo, calidad y diseño para lucir.",
+  "descripcionLarga": "Catalina nos presenta Colon.Indiamarket, un espacio de estilo y tendencia en accesorios de acero blanco, dorado y quirúrgico. Cada pieza está pensada para destacar, combinando modernidad, durabilidad y elegancia. Su emprendimiento participa activamente en ferias, llevando diseños exclusivos que permiten expresar personalidad a través de collares, pulseras, anillos y más. Ideal para quienes buscan calidad y estilo a la hora de complementar su look. Colon.Indiamarket no solo ofrece accesorios: ofrece confianza en materiales hipoalergénicos y diseños que duran, convirtiendo cada compra en un detalle que realmente se luce.",
+  "categoria": "Artesanias",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
