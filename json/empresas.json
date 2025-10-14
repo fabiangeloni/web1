@@ -1651,6 +1651,66 @@
   "categoria": "Servicios",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "podomasajes",
+  "nombre": "Podo Masajes",
+  "direccion": "",
+  "telefono": "2473461136",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/PODO-MASAJES/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/PODO-MASAJES/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/PODO-MASAJES/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/PODO-MASAJES/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/PODO-MASAJES/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/PODO-MASAJES/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/podo.masajes2025/",
+  "descripcionCorta": "Masajes y podoestética. Relajá cuerpo y mente con atención personalizada.",
+  "descripcionLarga": "Mariana ofrece un servicio integral de masajes deportivos, descontracturantes y relajantes, tanto en su espacio como a domicilio. Su atención personalizada se orienta a aliviar tensiones, mejorar la circulación y recuperar el bienestar corporal. Además, se especializa en podoestética (podología del pie), cuidando la salud y estética de tus pies con profesionalismo y dedicación. Cada sesión es una experiencia de relajación y cuidado, ideal para quienes buscan bienestar físico y equilibrio. Mariana combina técnica, sensibilidad y experiencia para que cada cliente se sienta renovado.",
+  "categoria": "Servicios",
+  "haceEnvios": false,
+  "urgencias": false
+},
+{ "id": "artesaniasliliana",
+  "nombre": "Artesanías Liliana",
+  "direccion": " calle 17 y 5 n°782,  Pearson",
+  "telefono": "2473534379",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/ARTESANIAS-LILIANA/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/ARTESANIAS-LILIANA/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/ARTESANIAS-LILIANA/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/ARTESANIAS-LILIANA/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/ARTESANIAS-LILIANA/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/ARTESANIAS-LILIANA/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "",
+  "descripcionCorta": "Creaciones artesanales en tela y bijouterie. Experiencia, tradición y dedicación.",
+  "descripcionLarga": "Con más de 45 años de experiencia como modista, Liliana creó Artesanías Liliana de Pearson, un emprendimiento que combina su talento con la costura y su pasión por lo artesanal. Realiza muñecas, cartucheras, manoplas, agarraderas, colitas para el pelo, corbatines gauchos, bolsos en cuerina, aros y collares, entre muchas otras piezas únicas. Cada creación es el resultado de años de oficio y amor por el detalle. Su trabajo refleja dedicación, tradición y un toque personal que hace de cada producto algo especial. Artesanías Liliana de Pearson es una muestra viva de creatividad y esfuerzo.",
+  "categoria": "Artesanias",
+  "haceEnvios": false,
+  "urgencias": false
+},
+{ "id": "servimaq",
+  "nombre": "ServiMaq",
+  "direccion": "",
+  "telefono": "2473408507",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/SERVIMAQ/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/SERVIMAQ/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/SERVIMAQ/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/SERVIMAQ/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/SERVIMAQ/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/SERVIMAQ/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/servimaq.colon",
+  "instagram": "",
+  "descripcionCorta": "Reparación de lavarropas, electricidad y corte de pasto. Servicio rápido y confiable.",
+  "descripcionLarga": "ServiMaq Reparaciones brinda soluciones prácticas y confiables para el mantenimiento del hogar. Su especialidad es la reparación de lavarropas y trabajos de electricidad domiciliaria, garantizando un servicio eficiente y profesional. Además, ofrecen corte de pasto y mantenimiento general, ideales para mantener tu casa en óptimas condiciones. Con atención personalizada y compromiso en cada trabajo, ServiMaq se destaca por la seriedad y la confianza en cada servicio. Un emprendimiento pensado para resolver con rapidez y calidad las necesidades diarias del hogar.",
+  "categoria": "Servicios",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
