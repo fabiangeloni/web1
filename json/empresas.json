@@ -1608,8 +1608,48 @@
   "instagram": "https://www.instagram.com/vacomopina_ddp/",
   "descripcionCorta": "Mesas dulces y postres caseros. Hechos con calidad y sin premezclas para todo evento.",
   "descripcionLarga": "VCP comenzó en 2018 como un servicio de delivery y hoy se especializa en mesas dulces y postres grandes por pedido, elaborados con materia prima de primera calidad, sin cremas vegetales ni premezclas. Cada creación es casera, cuidada y personalizada para todo tipo de eventos: cumpleaños, bodas o celebraciones especiales. Además, cada semana elaboran postres en porciones que se venden en distintos puntos VCP, garantizando frescura y sabor auténtico. Este emprendimiento combina tradición, dedicación y pasión por la repostería artesanal, convirtiendo cada dulce en una experiencia única y memorable.",
-  "categoria": "Comerciantes",
+  "categoria": "Gastronomia",
   "haceEnvios": true,
+  "urgencias": false
+},
+{ "id": "alabartola",
+  "nombre": "A la Bartola",
+  "direccion": "",
+  "telefono": "2473451308",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/A-LA-BARTOLA/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/A-LA-BARTOLA/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/A-LA-BARTOLA/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/A-LA-BARTOLA/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/A-LA-BARTOLA/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/A-LA-BARTOLA/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/_a.la.bartola_",
+  "descripcionCorta": "Cuadernos y bordados tufting personalizados. Diseño artesanal con estilo propio.",
+  "descripcionLarga": "Eloisa da vida a A la Bartola, un emprendimiento donde la creatividad se plasma en cada detalle. Se dedica al diseño y armado de cuadernos personalizados y a la creación de piezas únicas con bordado tufting, una técnica artesanal que transforma el hilo en textura, color y forma. Cada trabajo es totalmente personalizado: podés elegir el diseño, los tonos y los materiales para que reflejen tu estilo. A la Bartola combina lo artesanal con lo moderno, creando objetos útiles, decorativos y llenos de personalidad. Ideal para regalar, organizar tus ideas o decorar con algo hecho con pasión y dedicación.",
+  "categoria": "Artesanias",
+  "haceEnvios": true,
+  "urgencias": false
+},
+{ "id": "beautyspacolon",
+  "nombre": "Beauty Spa Colón",
+  "direccion": "",
+  "telefono": "2473501701",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/BEAUTY-SPA/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/BEAUTY-SPA/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/BEAUTY-SPA/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/BEAUTY-SPA/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/BEAUTY-SPA/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/BEAUTY-SPA/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/beautyspa.colon",
+  "descripcionCorta": "Spa infantil para niñas. Skincare, peinados, maquillaje y diversión asegurada.",
+  "descripcionLarga": "Beautyspa.colon es un espacio pensado para que las niñas vivan una experiencia divertida, relajante y segura. Ofrecen servicios de spa para niñas de 4 a 14 años, ideales para cumpleaños, tardes de amigas o eventos especiales. Las actividades incluyen skincare, spa de manos, esmaltado, maquillaje con glitter, peinados y colores, todo adaptado con productos aptos para pieles jóvenes. Cada encuentro se transforma en un momento de juego, autocuidado y alegría. Beautyspa.colon convierte cada celebración en un recuerdo inolvidable, lleno de brillo, risas y confianza.",
+  "categoria": "Servicios",
+  "haceEnvios": false,
   "urgencias": false
 }
 
