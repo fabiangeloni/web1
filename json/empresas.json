@@ -1491,6 +1491,26 @@
   "categoria": "Indumentaria",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "emanuelperez",
+  "nombre": "Emanuel Perez Electricista",
+  "direccion": "",
+  "telefono": "2473515623",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/EMANUEL/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/EMANUEL/1.jpg",
+    "https://microemprendedores.com.ar/img/EMANUEL/2.jpg",
+    "https://microemprendedores.com.ar/img/EMANUEL/3.jpg",
+    "https://microemprendedores.com.ar/img/EMANUEL/4.jpg",
+    "https://microemprendedores.com.ar/img/EMANUEL/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "",
+  "descripcionCorta": "Servicios eléctricos y de seguridad. Instalaciones, cámaras y alarmas con profesionalismo.",
+  "descripcionLarga": "Emanuel Pérez ofrece servicios eléctricos domiciliarios e industriales con un enfoque profesional, seguro y confiable. Con experiencia en instalaciones, mantenimiento y reparaciones, garantiza un trabajo prolijo y duradero. También brinda soluciones modernas en seguridad electrónica, incluyendo instalación de cámaras de vigilancia, sistemas de alarmas y cableado técnico adaptado a cada necesidad. Su compromiso está en ofrecer resultados eficientes, cuidando cada detalle y priorizando la seguridad de tu hogar o negocio. Confianza, calidad y responsabilidad en cada proyecto.",
+  "categoria": "Servicios",
+  "haceEnvios": false,
+  "urgencias": true
 }
 
  ]
