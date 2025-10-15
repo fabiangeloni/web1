@@ -1831,6 +1831,26 @@
   "categoria": "Artesanias",
   "haceEnvios": true,
   "urgencias": false
+},
+{ "id": "ancla",
+  "nombre": "ANCLA",
+  "direccion": "",
+  "telefono": "2473404870",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/ANCLA/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/ANCLA/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/ANCLA/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/ANCLA/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/ANCLA/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/ANCLA/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/ancla.regalos/",
+  "descripcionCorta": "Regalería cristiana con indumentaria, accesorios y libros. Inspiración y fe en cada detalle.",
+  "descripcionLarga": "Milagros nos acerca ANCLA, un espacio dedicado a la regalería cristiana que combina indumentaria, librería, accesorios y detalles especiales para la congregación ALES. Cada producto está pensado para transmitir fe, inspiración y alegría, ya sea para regalar, compartir o acompañar momentos significativos. ANCLA ofrece artículos seleccionados con cuidado, ideales para decorar, obsequiar o expresar valores cristianos a través de la calidad y el diseño de cada pieza. Su atención cercana y personalizada hace que cada visita sea un espacio de confianza y calidez, convirtiéndose en un referente para la comunidad local.",
+  "categoria": "Comerciantes",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
