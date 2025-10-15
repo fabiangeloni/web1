@@ -1811,6 +1811,26 @@
   "categoria": "Gastronomia",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "vdbordados",
+  "nombre": "VD Bordados",
+  "direccion": "",
+  "telefono": "2473417952",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/VD-BORDADOS/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/VD-BORDADOS/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/VD-BORDADOS/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/VD-BORDADOS/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/VD-BORDADOS/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/VD-BORDADOS/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/vd.bordados/",
+  "descripcionCorta": "Bordados hechos a mano en gorras y accesorios. Detalles únicos con estilo artesanal.",
+  "descripcionLarga": "Virginia es la creadora de VD Bordados, un emprendimiento donde cada puntada cuenta. Se dedica a realizar bordados 100% hechos a mano, combinando diseño, dedicación y estilo en piezas únicas. Su catálogo incluye gorras, borlas y accesorios para el pelo, todos intervenidos con bordados personalizados que aportan un toque artesanal y auténtico. Cada producto refleja paciencia, precisión y creatividad, convirtiéndose en un detalle especial para usar o regalar. En VD Bordados, lo artesanal se transforma en identidad: cada hilo cuenta tu historia con color, textura y pasión.",
+  "categoria": "Artesanias",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
  ]
