@@ -1851,6 +1851,26 @@
   "categoria": "Comerciantes",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "onplot",
+  "nombre": "ONPLOT",
+  "direccion": "",
+  "telefono": "2473409044",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/ONPLOT/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/ONPLOT/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/ONPLOT/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/ONPLOT/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/ONPLOT/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/ONPLOT/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/profile.php?id=100012150726310",
+  "instagram": "https://www.instagram.com/onplotgrafica/",
+  "descripcionCorta": "Carteles, ploteos y gráfica integral. 12 años de experiencia al servicio de tu negocio.",
+  "descripcionLarga": "Onplot Gráfica es sinónimo de confianza y experiencia. Con más de 12 años de trayectoria y una amplia cartera de clientes en la ciudad, ofrecemos soluciones gráficas a medida para todo tipo de negocios, desde pequeños emprendimientos hasta grandes empresas. Nos especializamos en impresiones en gran formato, ploteo vehicular, cartelería de lona, carteles en polifan y ploteo de vidrieras, garantizando la mejor calidad y durabilidad para que tu inversión rinda más y dure mucho tiempo. En Onplot, nos ajustamos a tus medidas, necesidades y presupuesto, brindando atención personalizada y resultados profesionales que destacan tu marca en cada rincón de la ciudad.",
+  "categoria": "Comerciantes",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
