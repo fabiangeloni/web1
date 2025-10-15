@@ -51,34 +51,45 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   mezcladas.forEach(empresa => {
-    const tarjeta = document.createElement("div");
-    tarjeta.classList.add("tarjeta");
-    tarjeta.dataset.categoria = empresa.categoria ? empresa.categoria.toLowerCase() : "";
+  const tarjeta = document.createElement("div");
+  tarjeta.classList.add("tarjeta");
+  tarjeta.dataset.categoria = empresa.categoria ? empresa.categoria.toLowerCase() : "";
 
-    const img = document.createElement("img");
-    img.src = empresa.fotoPerfil || 'img/default.jpg';
-    img.alt = empresa.nombre || 'Sin nombre';
-
-    const tag = document.createElement("span");
-    tag.classList.add("categoria-tag");
-    tag.textContent = empresa.categoria || 'Sin categoría';
-
-    const titulo = document.createElement("h2");
-    titulo.classList.add("titulo");
-    titulo.textContent = empresa.nombre || 'Sin nombre';
-
-    const desc = document.createElement("p");
-    desc.textContent = empresa.descripcionCorta || '';
-
-    const boton = document.createElement("button");
-    boton.textContent = "Ver Más";
-    boton.addEventListener("click", () => {
-      window.location.href = `empresa.html?id=${empresa.id}`;
-    });
-
-    tarjeta.append(img, tag, titulo, desc, boton);
-    contenedor.appendChild(tarjeta);
+  // Hacer toda la tarjeta clickeable
+  tarjeta.style.cursor = "pointer";
+  tarjeta.addEventListener("click", () => {
+    window.location.href = `empresa.html?id=${empresa.id}`;
   });
+
+  const img = document.createElement("img");
+  img.src = empresa.fotoPerfil || 'img/default.jpg';
+  img.alt = empresa.nombre || 'Sin nombre';
+
+  const tag = document.createElement("span");
+  tag.classList.add("categoria-tag");
+  tag.textContent = empresa.categoria || 'Sin categoría';
+
+  const titulo = document.createElement("h2");
+  titulo.classList.add("titulo");
+  titulo.textContent = empresa.nombre || 'Sin nombre';
+
+  const desc = document.createElement("p");
+  desc.textContent = empresa.descripcionCorta || '';
+
+  // Si querés, podés mantener el botón por estética (opcional)
+  const boton = document.createElement("button");
+  boton.textContent = "Ver Más";
+
+  // Evitar que el clic en el botón duplique la acción o cause conflictos
+  boton.addEventListener("click", (e) => {
+    e.stopPropagation(); // evita que se dispare el clic del contenedor
+    window.location.href = `empresa.html?id=${empresa.id}`;
+  });
+
+  tarjeta.append(img, tag, titulo, desc, boton);
+  contenedor.appendChild(tarjeta);
+});
+
 }
 
 
