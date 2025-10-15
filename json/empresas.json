@@ -1791,6 +1791,26 @@
   "categoria": "Servicios",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "antocruz",
+  "nombre": "Anto Cruz",
+  "direccion": "Calle 49 entre 20 y 21",
+  "telefono": "2477631485",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/ANTO-CRUZ/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/ANTO-CRUZ/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/ANTO-CRUZ/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/ANTO-CRUZ/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/ANTO-CRUZ/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/ANTO-CRUZ/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/profile.php?id=100048682192892",
+  "instagram": "https://www.instagram.com/anto_cruzok/",
+  "descripcionCorta": "Tortas y postres creativos. Mesas dulces, regalos y delicias para toda ocasión.",
+  "descripcionLarga": "Anto Cruz nos endulza la vida con su pastelería creativa, ofreciendo tortas, postres, macarons y mesas dulces de calidad, ideales para compartir o regalar. Su emprendimiento incluye tortas personalizadas, postres en porciones, desayunos y regalos empresariales, pensados para cada ocasión especial. Cada preparación está hecha con dedicación y atención al detalle, cuidando sabor, presentación y frescura. Abierto de miércoles a domingos, Anto Cruz combina creatividad y tradición, convirtiendo cada bocado en una experiencia deliciosa. Ideal para quienes buscan dulces únicos, personalizados y de alta calidad.",
+  "categoria": "Gastronomia",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
