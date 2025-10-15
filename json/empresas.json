@@ -1771,6 +1771,26 @@
   "categoria": "Comerciantes",
   "haceEnvios": true,
   "urgencias": false
+},
+{ "id": "mzelectricidad",
+  "nombre": "MZ Electricidad",
+  "direccion": "",
+  "telefono": "2473414752",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/MARIANO-ZURITA/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/MARIANO-ZURITA/1.jpg",
+    "https://microemprendedores.com.ar/img/MARIANO-ZURITA/2.jpg",
+    "https://microemprendedores.com.ar/img/MARIANO-ZURITA/3.jpg",
+    "https://microemprendedores.com.ar/img/MARIANO-ZURITA/4.jpg",
+    "https://microemprendedores.com.ar/img/MARIANO-ZURITA/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/mzelectricidadyrefrigeracion/",
+  "descripcionCorta": "Reparación e instalación de aires acondicionados y electricidad domiciliaria. Trabajo confiable.",
+  "descripcionLarga": "Mariano Zurita es el responsable de MZ, un emprendimiento especializado en técnica en refrigeración y electricidad domiciliaria. Ofrece instalación, reparación y mantenimiento de aires acondicionados, garantizando un trabajo limpio, seguro y eficiente. Además, Mariano está matriculado y brinda servicios eléctricos confiables para tu hogar, abarcando instalaciones completas y reparaciones con atención profesional. Su compromiso es la calidad, precisión y seguridad, adaptándose a cada necesidad del cliente. MZ es la opción ideal para mantener tu hogar fresco, funcional y seguro, combinando técnica, experiencia y responsabilidad en cada proyecto.",
+  "categoria": "Servicios",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
