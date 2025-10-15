@@ -1751,6 +1751,26 @@
   "categoria": "Artesanias",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "articulosdelimpiezamary",
+  "nombre": "Artículos de Limpieza Mary",
+  "direccion": "131 e 45 y 46",
+  "telefono": "2473448614",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/LIMPIEZA-MARY/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/LIMPIEZA-MARY/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/LIMPIEZA-MARY/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/LIMPIEZA-MARY/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/LIMPIEZA-MARY/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/LIMPIEZA-MARY/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/mariela.iriarte.39",
+  "instagram": "https://www.instagram.com/mariela.iriarte.39/",
+  "descripcionCorta": "Limpieza y perfumería para telas y ambientes. Calidad, frescura y atención cercana.",
+  "descripcionLarga": "Mariela está al frente de Artículos de Limpieza Mary, un emprendimiento que ofrece una amplia variedad de productos de limpieza sueltos y artículos de perfumería para telas y ambientes. Cada producto está pensado para brindar aromas agradables, limpieza efectiva y calidad accesible para el hogar, negocios o instituciones. Mary combina atención personalizada con productos confiables, ayudándote a mantener tus espacios frescos, perfumados y relucientes. Ideal para quienes buscan soluciones prácticas y sustentables para la limpieza diaria.",
+  "categoria": "Comerciantes",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
  ]
