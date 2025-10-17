@@ -130,7 +130,7 @@
       }
 
       if (empresa.direccion && empresa.direccion.trim() !== "") {
-        empresa.direccion = empresa.direccion.replace(/\s+/g, '+');
+        htmlIconos += `<div class="direccion">${empresa.direccion}</div>`;
       }
 
       if (empresa.instagram && empresa.instagram.trim() !== "") {
