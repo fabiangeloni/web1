@@ -104,7 +104,7 @@
 
       // --- Buscar empresa por ID ---
       let empresa = empresas.find(e => e.id.toLowerCase() === (empresaId || '').toLowerCase());
-      if (!empresa) empresa = empresas[0]; // fallback
+      if (!empresa) empresa = empresas[50]; // fallback
 
       // --- Fondo dinámico de la sección PERFIL ---
       const seccionPerfil = document.querySelector('.perfil');
@@ -249,7 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- Táctil (móvil) ---
   track.addEventListener("touchstart", (e) => {
     isDragging = true;
-    startX = e.touches[0].pageX - track.offsetLeft;
+    startX = e.touches[1].pageX - track.offsetLeft;
     scrollLeft = track.scrollLeft;
   });
 
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   track.addEventListener("touchmove", (e) => {
     if (!isDragging) return;
-    const x = e.touches[0].pageX - track.offsetLeft;
+    const x = e.touches[1].pageX - track.offsetLeft;
     const walk = (x - startX) * 1.2;
     track.scrollTo({
       left: scrollLeft - walk,

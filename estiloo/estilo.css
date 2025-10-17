@@ -229,6 +229,7 @@ transition: transform 0.5s ease;
 
 
 
+
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
@@ -285,13 +286,13 @@ transition: transform 0.5s ease;
 
 @media (max-width: 768px) {
   .carrusel-slide {
-    flex: 0 0 50%; /* 2 imágenes visibles en tablets */
+    flex: 0 0 70%; /* 2 imágenes visibles en tablets */
   }
 }
 
 @media (max-width: 480px) {
   .carrusel-slide {
-    flex: 0 0 100%; /* 1 imagen visible en celulares */
+    flex: 0 0 90%;
   }
 }
 
@@ -394,6 +395,7 @@ transition: transform 0.5s ease;
 }
 
 .carrusel-track {
+  cursor: w-resize;
   display: flex;
   gap: 10px;
   overflow-x: auto;
@@ -428,4 +430,5 @@ footer img:hover {
   opacity: 1;
   filter: none;
 }
+
 
