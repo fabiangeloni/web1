@@ -1871,6 +1871,26 @@
   "categoria": "Comerciantes",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "elefanteblanco",
+  "nombre": "Elefante Blanco",
+  "direccion": "58 entre 14 y 15",
+  "telefono": "2473506500",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/ELEFANTE-BLANCO/FOTOS/foto-perfil.jpeg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/ELEFANTE-BLANCO/FOTOS/1.jpeg",
+    "https://microemprendedores.com.ar/img/ELEFANTE-BLANCO/FOTOS/2.jpeg",
+    "https://microemprendedores.com.ar/img/ELEFANTE-BLANCO/FOTOS/3.jpeg",
+    "https://microemprendedores.com.ar/img/ELEFANTE-BLANCO/FOTOS/4.jpeg",
+    "https://microemprendedores.com.ar/img/ELEFANTE-BLANCO/FOTOS/5.jpeg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/gabinetedemasajeselefanteblanc/",
+  "descripcionCorta": "Bienestar, relax y belleza. En Elefante Blanco cuidamos tu cuerpo con masajes y estética profesional. 🌸",
+  "descripcionLarga": "Elefante Blanco nos invita a reconectar con el bienestar y el equilibrio interior. En su gabinete de masajes y estética, Susana ofrece un espacio pensado para relajar cuerpo y mente, donde cada detalle está diseñado para que te sientas en armonía. Tratamientos faciales y corporales, masajes descontracturantes, relajantes y terapéuticos, junto con rituales de belleza que renuevan la piel y el espíritu.\nPorque cuidar de vos también es una forma de quererte, Elefante Blanco combina técnicas profesionales con un trato humano, cercano y personalizado. Ideal para quienes buscan relajación, estética natural y bienestar integral en un ambiente tranquilo y acogedor.\nTu cuerpo es el mejor lugar que tenés para vivir — y aquí lo cuidamos con todo el respeto y dedicación que merece. 🌿✨",
+  "categoria": "Servicios",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
