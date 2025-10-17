@@ -1991,6 +1991,46 @@
   "categoria": "Artesanias",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "candybardulceotruco",
+  "nombre": "Candy Bar Dulce o Truco",
+  "direccion": "Paraguay 285 Wheelwright",
+  "telefono": "2473494622",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/martina.gonzalez.822886",
+  "instagram": "https://www.instagram.com/candy_bardulceotruco/",
+  "descripcionCorta": "Decoración personalizada para fiestas | Transformamos tus eventos en momentos inolvidables.",
+  "descripcionLarga": "Cada celebración merece ser especial, y eso es lo que me inspira. Soy emprendedora y me dedico a transformar eventos en experiencias memorables a través de la decoración personalizada. Desde fondos que enmarcan tus mejores fotos, hasta piñatas, bolsitas, centros de mesa, souvenirs y golosinas que reflejan tu estilo, cada creación está pensada con dedicación y mucho amor.\nTrabajo de forma artesanal, cuidando cada detalle para que tu fiesta tenga ese toque único que la hace inolvidable. Ya sea un cumpleaños, bautismo, baby shower o cualquier ocasión especial, mi objetivo es ayudarte a crear un ambiente mágico, lleno de color, alegría y emoción.\nOfrecemos servicio en Wheelwright zonas aledañas.",
+  "categoria": "Servicios",
+  "haceEnvios": false,
+  "urgencias": false
+},
+{ "id": "candybardulceotruco2",
+  "nombre": "Candy Bar Dulce o Truco",
+  "direccion": "Paraguay 285 Wheelwright",
+  "telefono": "2473494622",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO-2/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO-2/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO-2/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO-2/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO-2/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/CANDY-BAR-DULCE-O-TRUCO-2/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/martina.gonzalez.822886",
+  "instagram": "https://www.instagram.com/candy_bardulceotruco/",
+  "descripcionCorta": "Diseño, gráfica y personalización  | Diseños que hablan por vos.",
+  "descripcionLarga": "Bienvenidos a mi espacio creativo. Soy emprendedora y me especializo en diseño gráfico personalizado, ofreciendo soluciones visuales que se adaptan a cada necesidad. Mi trabajo abarca una amplia variedad de productos: stickers, etiquetas, libretas, calendarios, agendas, tarjetas, plastificados y anillados, todos elaborados con atención al detalle y compromiso con la calidad.\nAdemás, realizo estampas en tazas, remeras, gorras, botellas, y llaveros ideales para regalos, eventos o identidad de marca. Cada pieza es diseñada con dedicación, buscando siempre reflejar la personalidad, el propósito o el mensaje de quien la solicita.\nMi objetivo es brindar un servicio profesional, creativo y confiable, acompañando a cada cliente en el proceso de transformar sus ideas en productos tangibles que comuniquen, decoren o inspiren.\n¡Llevamos tus pedidos hasta tu casa! Envíos disponibles en Wheelwright y en zonas aledañas.",
+  "categoria": "Servicios",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
  ]
