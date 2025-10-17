@@ -90,10 +90,11 @@ transition: transform 0.5s ease;
 
 /*ICONOS CONTACTO*/
 .iconos-contacto {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  margin: 1rem 0;
+      display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 1rem 0;
+    padding-top: 1rem;
 }
 
 .iconos-contacto a {
@@ -107,9 +108,11 @@ transition: transform 0.5s ease;
   color: #a3a3a3;
 }
 
-.direccion{max-width: 70%;
+.direccion{width: 70vw;
     text-align: center;
-    color: white;}
+    color: white;
+    position: absolute;
+   margin-top: -28px;}
 
 .boton-wsp {
   text-align: center;
