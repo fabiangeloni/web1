@@ -107,6 +107,10 @@ transition: transform 0.5s ease;
   color: #a3a3a3;
 }
 
+.direccion{max-width: 70%;
+    text-align: center;
+    color: white;}
+
 .boton-wsp {
   text-align: center;
   margin-top: 1rem;
