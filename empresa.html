@@ -130,7 +130,7 @@
       }
 
       if (empresa.direccion && empresa.direccion.trim() !== "") {
-        htmlIconos += `<a href="https://www.google.com/maps?q=${encodeURIComponent(empresa.direccion)}" target="_blank"><i class="fas fa-map-marker-alt"></i></a>`;
+        empresa.direccion = empresa.direccion.replace(/\s+/g, '+');
       }
 
       if (empresa.instagram && empresa.instagram.trim() !== "") {
