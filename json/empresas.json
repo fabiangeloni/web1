@@ -1891,6 +1891,66 @@
   "categoria": "Servicios",
   "haceEnvios": false,
   "urgencias": false
+},
+{ "id": "espora",
+  "nombre": "Espora",
+  "direccion": "44 n° 521, Colon, Buenos Aires",
+  "telefono": "2473449637",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/ESPORA/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/ESPORA/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/ESPORA/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/ESPORA/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/ESPORA/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/ESPORA/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/espora.rf",
+  "descripcionCorta": "Moda, estilo y autenticidad. En Espora encontrás prendas y accesorios con identidad propia. 👗",
+  "descripcionLarga": "Espora nos inspira a expresar nuestra esencia a través de la moda. Cada prenda y accesorio está pensado para mujeres que disfrutan de verse bien sin perder comodidad ni autenticidad. Su estilo combina diseño, tendencia y detalles hechos con amor, creando piezas únicas que realzan tu personalidad.\nDesde accesorios modernos hasta prendas versátiles para todos los días, Espora propone un concepto de moda consciente y original, donde lo artesanal y lo actual se encuentran en equilibrio. Ideal para regalarte un mimo o renovar tu look con un toque diferente.\nPorque vestirse también es una forma de contarse al mundo, Espora te acompaña a hacerlo con estilo, frescura y actitud. 🌸✨",
+  "categoria": "Indumentaria",
+  "haceEnvios": true,
+  "urgencias": false
+},
+{ "id": "rsservicios",
+  "nombre": "RS Servicios",
+  "direccion": "Calle 9 e/ 39 y 40",
+  "telefono": "2473451392",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/RS-SERVICIOS/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/RS-SERVICIOS/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/RS-SERVICIOS/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/RS-SERVICIOS/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/RS-SERVICIOS/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/RS-SERVICIOS/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "",
+  "descripcionCorta": "Climatización, seguridad y electricidad profesional. RS Servicios, soluciones a tu medida. ⚡",
+  "descripcionLarga": "RS Servicios nos brinda soluciones técnicas confiables y a medida. Especialistas en instalación y reparación de aires acondicionados, cámaras de seguridad y servicios eléctricos, su equipo trabaja con compromiso y precisión en cada proyecto.\nYa sea en tu hogar, comercio o empresa, RS Servicios garantiza trabajos seguros, duraderos y realizados con materiales de calidad. Con atención personalizada y soporte técnico cercano, ofrecen tranquilidad y eficiencia en cada servicio.\nSi buscás profesionalismo, rapidez y confianza, RS Servicios es la elección ideal para mantener tus espacios confortables y protegidos durante todo el año. 🔧💡",
+  "categoria": "Servicios",
+  "haceEnvios": false,
+  "urgencias": false
+},
+{ "id": "salondeluz",
+  "nombre": "Salón de Luz",
+  "direccion": "19 entre 50 y 51 colon Buenos Aires",
+  "telefono": "2473476743",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/SALON-DE-LUZ/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/SALON-DE-LUZ/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/SALON-DE-LUZ/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/SALON-DE-LUZ/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/SALON-DE-LUZ/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/SALON-DE-LUZ/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "",
+  "descripcionCorta": "Color, estilo y confianza. En Salón de Luz realzamos tu belleza con experiencia y pasión. 💇‍♀️",
+  "descripcionLarga": "Salón de Luz, de Graciela, es sinónimo de experiencia, dedicación y amor por la belleza capilar. Con una trayectoria que respalda cada servicio, ofrece trabajos profesionales que destacan por su cuidado y perfección.\nEspecialista en cambios de look, reflejos, permanentes, cortes y tinturas, Graciela transforma cada visita en una experiencia de confianza y bienestar. Su objetivo: resaltar tu mejor versión con resultados naturales, duraderos y llenos de estilo.\nPorque tu cabello también merece atención personalizada, en Salón de Luz encontrarás un espacio cálido, moderno y con esa luz especial que realza tu belleza. ✂️✨",
+  "categoria": "Servicios",
+  "haceEnvios": false,
+  "urgencias": false
 }
 
  ]
