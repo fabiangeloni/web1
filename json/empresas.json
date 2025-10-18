@@ -2031,6 +2031,66 @@
   "categoria": "Comerciantes",
   "haceEnvios": true,
   "urgencias": false
+},
+{ "id": "themansionroller",
+  "nombre": "The Mansion Roller",
+  "direccion": "",
+  "telefono": "2473519149",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/THE-MANSION-ROLLER/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/THE-MANSION-ROLLER/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/THE-MANSION-ROLLER/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/THE-MANSION-ROLLER/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/THE-MANSION-ROLLER/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/THE-MANSION-ROLLER/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/cortinasroller_themansion",
+  "descripcionCorta": "Cortinas roller y tradicionales con diseño y calidad. Atención personalizada y materiales importados. 🪟",
+  "descripcionLarga": "The Mansion Roller, de Vanesa, nos ofrece soluciones en cortinería tradicional y roller con el equilibrio perfecto entre diseño, funcionalidad y calidad. Este emprendimiento familiar nació en plena pandemia, impulsado por la pasión y la dedicación, y hoy suma más de cinco años de experiencia en el rubro.\nCada cortina es confeccionada con materiales importados de primera línea, garantizando durabilidad, estética y terminaciones impecables. Nos destacamos por brindar una atención personalizada, escuchando las necesidades de cada cliente para crear ambientes únicos, cómodos y con estilo.\nEn The Mansion Roller, vestir tus ventanas es mucho más que un detalle decorativo: es mejorar la luz, el confort y la armonía de tu hogar o espacio de trabajo. ✨🏠",
+  "categoria": "Comerciantes",
+  "haceEnvios": true,
+  "urgencias": false
+},
+{ "id": "jyj",
+  "nombre": "J & J",
+  "direccion": "Rivadavia 160 Wheelwright",
+  "telefono": "2473518459",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/JYJ1/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/JYJ1/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/JYJ1/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/JYJ1/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/JYJ1/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/JYJ1/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "https://www.instagram.com/cintiaporra/",
+  "descripcionCorta": "Tecnología y Electrónica | Venta Minorista",
+  "descripcionLarga": "J&J es su destino de confianza para tecnología y electrónica. Ofrecemos una amplia selección de productos que combinan funcionalidad, diseño y precios competitivos: celulares (nuevos y usados), accesorios (fundas, cargadores, auriculares), televisores, parlantes y pequeños electrodomésticos. Nuestro compromiso es con la calidad y la satisfacción del cliente. Brindamos atención personalizada y asesoramiento experto para ayudarle a tomar la mejor decisión, ya sea para una renovación o un regalo. \n",
+  "categoria": "Comerciantes",
+  "haceEnvios": true,
+  "urgencias": false
+},
+{ "id": "jyj2",
+  "nombre": "J & J",
+  "direccion": "Rivadavia 160 Wheelwright",
+  "telefono": "2473471247",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/JYJ2/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/JYJ2/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/JYJ2/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/JYJ2/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/JYJ2/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/JYJ2/FOTOS/5.jpg"
+  ],
+  "facebook": "",
+  "instagram": "",
+  "descripcionCorta": "Servicio Técnico Electrónico | Reparación de Dispositivos.",
+  "descripcionLarga": "J&J ofrece un servicio técnico especializado y de alta precisión para la reparación de dispositivos electrónicos. Brindamos soluciones eficientes y duraderas para celulares, tablets, televisores, microondas y ventiladores, entre otros. Nuestro enfoque se basa en el compromiso, la responsabilidad y el uso de repuestos de primera calidad. Realizamos diagnósticos detallados y ofrecemos asesoramiento experto para garantizar la recuperación óptima del rendimiento de sus equipos. La confianza del cliente es nuestra prioridad.",
+  "categoria": "Comerciantes",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
  ]
