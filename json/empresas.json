@@ -2091,6 +2091,26 @@
   "categoria": "Servicios",
   "haceEnvios": true,
   "urgencias": false
+},
+{ "id": "amoremio",
+  "nombre": "Amore Mio",
+  "direccion": "",
+  "telefono": "2473-501018",
+  "fotoPerfil": "https://microemprendedores.com.ar/img/AMORE-MIO/FOTOS/foto-perfil.jpg",
+  "fotos": [
+    "https://microemprendedores.com.ar/img/AMORE-MIO/FOTOS/1.jpg",
+    "https://microemprendedores.com.ar/img/AMORE-MIO/FOTOS/2.jpg",
+    "https://microemprendedores.com.ar/img/AMORE-MIO/FOTOS/3.jpg",
+    "https://microemprendedores.com.ar/img/AMORE-MIO/FOTOS/4.jpg",
+    "https://microemprendedores.com.ar/img/AMORE-MIO/FOTOS/5.jpg"
+  ],
+  "facebook": "https://www.facebook.com/amoremio.colon",
+  "instagram": "https://www.instagram.com/_amore_mio_creaciones_/",
+  "descripcionCorta": "Productos artesanales únicos en crochet, macramé, tejido y costura. ¡Lo que imagines, lo creamos! 🧶✨",
+  "descripcionLarga": "Amore Mio, de Luciana, nos ofrece un universo de creatividad y detalles hechos a mano. Cada pieza está pensada para reflejar la personalidad y los gustos de quien la recibe, combinando distintas técnicas artesanales con un toque único.\nEn su taller se elaboran productos personalizados en crochet (amigurumis, flores, llaveros), tejido a dos agujas (gorros, bufandas, prendas), macramé (mandalas, colgantes, lámparas) y costura (disfraces, peluches, mochilas y más).\nCada creación nace del amor por lo hecho a mano y del deseo de transformar ideas en objetos llenos de significado.\nPorque en Amore Mio todo parte de una frase que resume su esencia: “Lo que imagines, lo creamos para vos”. 💕🧵",
+  "categoria": "Artesanias",
+  "haceEnvios": true,
+  "urgencias": false
 }
 
  ]
