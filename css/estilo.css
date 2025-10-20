@@ -725,7 +725,7 @@ h2 {
 }
 
 .tarjeta {
-    background: #fff;
+   background: #fff;
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     padding: 20px;
@@ -734,7 +734,10 @@ h2 {
     text-align: center;
     transition: transform 0.3s ease;
     position: relative;
-    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .tarjeta:hover {
